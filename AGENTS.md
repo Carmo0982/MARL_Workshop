@@ -32,7 +32,7 @@ Enunciado original: `MARL_Stock_Exchange_Workshop.docx`, `DELIVERABLE_SPECIFICAT
 
 1. **Verificar instalación:** correr los demos 1–5 y `shared.abides_smoke_test` (ver `run.sh`).
 2. **Pruebas finales con semillas de test.** Comandos exactos en `NOTAS_EQUIPO.md` sección 8, paso 2. Comparar:
-   - `outputs/model.pt` (= `outputs/candidates/v2_dueling_s11.pt`, el elegido actual),
+   - `outputs/model.pt` (= `outputs/candidates/v2_dueling_s11.pt`, elección provisional),
    - `outputs/candidates/ft_abides25.pt` (retador),
    - `outputs/baseline/model.pt` (DQN starter), `hold`, `mean_reversion`.
    El de ABIDES es lento (~40–90 s por simulación): lanza **un proceso por escenario en paralelo** y en segundo plano.

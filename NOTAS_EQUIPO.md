@@ -15,7 +15,9 @@ Léelo completo antes de tocar el código. El borrador del informe está en `INF
 | Double + Dueling DQN, n-step, checkpoints, selección por validación | ✅ `student_work/train.py`, `student_work/model.py` |
 | Adaptador para correr el modelo **dentro de ABIDES-NG** (individual y torneo) | ✅ `student_work/abides_eval.py` |
 | Recolección de datos reales de ABIDES para entrenar | ✅ `student_work/abides_collect.py` |
-| Modelo candidato entrenado y copiado a `outputs/model.pt` | ✅ ver sección 7 |
+| Modelo candidato entrenado y copiado a `outputs/model.pt` | ✅ provisional (`v2_dueling_s11`), ver sección 7 |
+| Revisión externa: correcciones de evaluador, métricas y textos | ✅ hecho (ver notas en 6.2, 6.3 y 7) |
+| Elegir el modelo final (`v2_dueling_s11` o `ft_abides25`) | ⏳ **compañero** (sección 8, paso 3) |
 | ZIP provisional validado (`submission/TEAM_XX.zip`) | ✅, **re-exportar con el ID real del equipo** |
 | Pruebas finales con semillas de test + números finales del informe | ⏳ **compañero** (sección 8) |
 | Exportar con el ID real, validar y subir | ⏳ **compañero** |
