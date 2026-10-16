@@ -1,0 +1,38 @@
+[9993] INFO abides_core.engine.kernel --- Simulation time: 2021-02-05 00:00:00, messages processed: 0, wallclock elapsed: 0.00s ---
+[9993] INFO abides_core.engine.kernel --- Simulation time: 2021-02-05 13:54:35, messages processed: 100,000, wallclock elapsed: 12.31s ---
+[9993] INFO abides_core.engine.kernel --- Simulation time: 2021-02-05 15:44:23, messages processed: 200,000, wallclock elapsed: 23.42s ---
+[9993] INFO abides_markets.agents.market_makers.adaptive_market_maker_agent ADAPTIVE_POV_MARKET_MAKER_AGENT_1 flattened position: 6359 shares of ABM at 2021-02-05 15:55:14
+[9993] INFO abides_core.engine.kernel Event Queue elapsed: 0:00:26.484310, messages: 221,071, messages per second: 8347.2
+[9993] INFO abides_core.engine.kernel Simulation ending!
+individual stress_test   seed=1    candidates/ft_abides25       PnL=$ 81,809.95 maxDD=$152,570.71 fills= 303 inv= -162 hold=  5.5% (29s)
+[9993] INFO abides_core.engine.kernel --- Simulation time: 2021-02-05 00:00:00, messages processed: 0, wallclock elapsed: 0.00s ---
+[9993] INFO abides_core.engine.kernel --- Simulation time: 2021-02-05 12:27:52, messages processed: 100,000, wallclock elapsed: 6.60s ---
+[9993] INFO abides_core.engine.kernel --- Simulation time: 2021-02-05 13:29:40, messages processed: 200,000, wallclock elapsed: 12.80s ---
+[9993] INFO abides_core.engine.kernel --- Simulation time: 2021-02-05 14:21:50, messages processed: 300,000, wallclock elapsed: 18.70s ---
+[9993] INFO abides_core.engine.kernel --- Simulation time: 2021-02-05 14:55:54, messages processed: 400,000, wallclock elapsed: 24.28s ---
+[9993] INFO abides_core.engine.kernel --- Simulation time: 2021-02-05 15:20:28, messages processed: 500,000, wallclock elapsed: 29.64s ---
+[9993] INFO abides_core.engine.kernel --- Simulation time: 2021-02-05 15:38:42, messages processed: 600,000, wallclock elapsed: 34.57s ---
+[9993] INFO abides_core.engine.kernel --- Simulation time: 2021-02-05 15:47:26, messages processed: 700,000, wallclock elapsed: 39.21s ---
+[9993] INFO abides_markets.agents.market_makers.adaptive_market_maker_agent ADAPTIVE_POV_MARKET_MAKER_AGENT_1 flattened position: 184 shares of ABM at 2021-02-05 15:55:14
+[9993] INFO abides_core.engine.kernel --- Simulation time: 2021-02-05 15:55:37, messages processed: 800,000, wallclock elapsed: 44.21s ---
+[9993] INFO abides_core.engine.kernel Event Queue elapsed: 0:00:47.155274, messages: 861,765, messages per second: 18275.1
+[9993] INFO abides_core.engine.kernel Simulation ending!
+individual stress_test   seed=1    candidates/ft_abides50       PnL=$ -1,092.29 maxDD=$ 4,408.32 fills= 290 inv= -303 hold=  5.2% (47s)
+[9993] INFO abides_core.engine.kernel --- Simulation time: 2021-02-05 00:00:00, messages processed: 0, wallclock elapsed: 0.00s ---
+[9993] INFO abides_core.engine.kernel --- Simulation time: 2021-02-05 14:13:35, messages processed: 100,000, wallclock elapsed: 13.78s ---
+[9993] INFO abides_markets.agents.market_makers.adaptive_market_maker_agent ADAPTIVE_POV_MARKET_MAKER_AGENT_1 flattened position: 6090 shares of ABM at 2021-02-05 15:56:57
+[9993] INFO abides_core.engine.kernel Event Queue elapsed: 0:00:29.485340, messages: 192,757, messages per second: 6537.4
+[9993] INFO abides_core.engine.kernel Simulation ending!
+individual stress_test   seed=2    candidates/ft_abides25       PnL=$ 32,138.07 maxDD=$322,663.80 fills= 208 inv=  -98 hold=  4.6% (30s)
+[9993] INFO abides_core.engine.kernel --- Simulation time: 2021-02-05 00:00:00, messages processed: 0, wallclock elapsed: 0.00s ---
+[9993] INFO abides_core.engine.kernel --- Simulation time: 2021-02-05 13:45:49, messages processed: 100,000, wallclock elapsed: 11.91s ---
+[9993] INFO abides_core.engine.kernel --- Simulation time: 2021-02-05 15:52:21, messages processed: 200,000, wallclock elapsed: 28.46s ---
+[9993] INFO abides_markets.agents.market_makers.adaptive_market_maker_agent ADAPTIVE_POV_MARKET_MAKER_AGENT_1 flattened position: 8109 shares of ABM at 2021-02-05 15:56:57
+[9993] INFO abides_core.engine.kernel Event Queue elapsed: 0:00:30.254338, messages: 208,625, messages per second: 6895.7
+[9993] INFO abides_core.engine.kernel Simulation ending!
+individual stress_test   seed=2    candidates/ft_abides50       PnL=$-84,527.35 maxDD=$218,777.20 fills= 207 inv= -369 hold=  4.2% (31s)
+
+Mean PnL by policy:
+  candidates/ft_abides25       mean=$ 56,974.01  min=$ 32,138.07  n=2
+  candidates/ft_abides50       mean=$-42,809.82  min=$-84,527.35  n=2
+Saved: outputs/abides_eval/v2/ft_stress_test.csv

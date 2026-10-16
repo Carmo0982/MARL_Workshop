@@ -1,0 +1,65 @@
+[9985] INFO abides_core.engine.kernel --- Simulation time: 2021-02-05 00:00:00, messages processed: 0, wallclock elapsed: 0.00s ---
+[9985] INFO abides_core.engine.kernel --- Simulation time: 2021-02-05 12:58:04, messages processed: 100,000, wallclock elapsed: 15.11s ---
+[9985] INFO abides_core.engine.kernel --- Simulation time: 2021-02-05 14:11:58, messages processed: 200,000, wallclock elapsed: 27.60s ---
+[9985] INFO abides_core.engine.kernel --- Simulation time: 2021-02-05 15:04:59, messages processed: 300,000, wallclock elapsed: 35.21s ---
+[9985] INFO abides_core.engine.kernel --- Simulation time: 2021-02-05 15:38:52, messages processed: 400,000, wallclock elapsed: 41.90s ---
+[9985] INFO abides_markets.agents.market_makers.adaptive_market_maker_agent ADAPTIVE_POV_MARKET_MAKER_AGENT_1 flattened position: 9486 shares of ABM at 2021-02-05 15:55:14
+[9985] INFO abides_core.engine.kernel --- Simulation time: 2021-02-05 15:55:59, messages processed: 500,000, wallclock elapsed: 48.21s ---
+[9985] INFO abides_core.engine.kernel Event Queue elapsed: 0:00:49.359750, messages: 521,390, messages per second: 10563.1
+[9985] INFO abides_core.engine.kernel Simulation ending!
+individual stable_day    seed=1    candidates/ft_abides25       PnL=$   -242.57 maxDD=$   295.18 fills= 387 inv=  -28 hold= 12.2% (53s)
+[9985] INFO abides_core.engine.kernel --- Simulation time: 2021-02-05 00:00:00, messages processed: 0, wallclock elapsed: 0.00s ---
+[9985] INFO abides_core.engine.kernel --- Simulation time: 2021-02-05 12:51:43, messages processed: 100,000, wallclock elapsed: 12.77s ---
+[9985] INFO abides_core.engine.kernel --- Simulation time: 2021-02-05 14:11:58, messages processed: 200,000, wallclock elapsed: 27.22s ---
+[9985] INFO abides_core.engine.kernel --- Simulation time: 2021-02-05 15:20:54, messages processed: 300,000, wallclock elapsed: 43.01s ---
+[9985] INFO abides_core.engine.kernel --- Simulation time: 2021-02-05 15:44:00, messages processed: 400,000, wallclock elapsed: 51.13s ---
+[9985] INFO abides_markets.agents.market_makers.adaptive_market_maker_agent ADAPTIVE_POV_MARKET_MAKER_AGENT_1 flattened position: 20087 shares of ABM at 2021-02-05 15:55:14
+[9985] INFO abides_core.engine.kernel --- Simulation time: 2021-02-05 15:56:44, messages processed: 500,000, wallclock elapsed: 58.59s ---
+[9985] INFO abides_core.engine.kernel Event Queue elapsed: 0:00:59.089923, messages: 507,396, messages per second: 8586.8
+[9985] INFO abides_core.engine.kernel Simulation ending!
+individual stable_day    seed=1    candidates/ft_abides50       PnL=$   -249.68 maxDD=$   318.29 fills= 385 inv=   62 hold= 11.3% (60s)
+[9985] INFO abides_core.engine.kernel --- Simulation time: 2021-02-05 00:00:00, messages processed: 0, wallclock elapsed: 0.00s ---
+[9985] INFO abides_core.engine.kernel --- Simulation time: 2021-02-05 12:16:10, messages processed: 100,000, wallclock elapsed: 12.07s ---
+[9985] INFO abides_core.engine.kernel --- Simulation time: 2021-02-05 13:23:19, messages processed: 200,000, wallclock elapsed: 27.16s ---
+[9985] INFO abides_core.engine.kernel --- Simulation time: 2021-02-05 14:35:19, messages processed: 300,000, wallclock elapsed: 41.49s ---
+[9985] INFO abides_core.engine.kernel --- Simulation time: 2021-02-05 15:16:48, messages processed: 400,000, wallclock elapsed: 55.03s ---
+[9985] INFO abides_core.engine.kernel --- Simulation time: 2021-02-05 15:38:43, messages processed: 500,000, wallclock elapsed: 59.95s ---
+[9985] INFO abides_markets.agents.market_makers.adaptive_market_maker_agent ADAPTIVE_POV_MARKET_MAKER_AGENT_1 flattened position: 25934 shares of ABM at 2021-02-05 15:56:57
+[9985] INFO abides_core.engine.kernel Event Queue elapsed: 0:01:04.197846, messages: 576,964, messages per second: 8987.3
+[9985] INFO abides_core.engine.kernel Simulation ending!
+individual stable_day    seed=2    candidates/ft_abides25       PnL=$   -116.30 maxDD=$   173.95 fills= 393 inv=   28 hold= 11.7% (65s)
+[9985] INFO abides_core.engine.kernel --- Simulation time: 2021-02-05 00:00:00, messages processed: 0, wallclock elapsed: 0.00s ---
+[9985] INFO abides_core.engine.kernel --- Simulation time: 2021-02-05 11:33:52, messages processed: 100,000, wallclock elapsed: 4.91s ---
+[9985] INFO abides_core.engine.kernel --- Simulation time: 2021-02-05 12:01:45, messages processed: 200,000, wallclock elapsed: 8.61s ---
+[9985] INFO abides_core.engine.kernel --- Simulation time: 2021-02-05 12:25:43, messages processed: 300,000, wallclock elapsed: 12.53s ---
+[9985] INFO abides_core.engine.kernel --- Simulation time: 2021-02-05 12:43:06, messages processed: 400,000, wallclock elapsed: 16.67s ---
+[9985] INFO abides_core.engine.kernel --- Simulation time: 2021-02-05 12:56:12, messages processed: 500,000, wallclock elapsed: 20.90s ---
+[9985] INFO abides_core.engine.kernel --- Simulation time: 2021-02-05 13:08:26, messages processed: 600,000, wallclock elapsed: 24.91s ---
+[9985] INFO abides_core.engine.kernel --- Simulation time: 2021-02-05 13:16:56, messages processed: 700,000, wallclock elapsed: 29.14s ---
+[9985] INFO abides_core.engine.kernel --- Simulation time: 2021-02-05 13:35:25, messages processed: 800,000, wallclock elapsed: 33.37s ---
+[9985] INFO abides_core.engine.kernel --- Simulation time: 2021-02-05 13:52:02, messages processed: 900,000, wallclock elapsed: 37.96s ---
+[9985] INFO abides_core.engine.kernel --- Simulation time: 2021-02-05 14:02:54, messages processed: 1,000,000, wallclock elapsed: 42.53s ---
+[9985] INFO abides_core.engine.kernel --- Simulation time: 2021-02-05 14:15:08, messages processed: 1,100,000, wallclock elapsed: 47.17s ---
+[9985] INFO abides_core.engine.kernel --- Simulation time: 2021-02-05 14:30:55, messages processed: 1,200,000, wallclock elapsed: 52.18s ---
+[9985] INFO abides_core.engine.kernel --- Simulation time: 2021-02-05 14:38:46, messages processed: 1,300,000, wallclock elapsed: 56.80s ---
+[9985] INFO abides_core.engine.kernel --- Simulation time: 2021-02-05 14:44:30, messages processed: 1,400,000, wallclock elapsed: 61.79s ---
+[9985] INFO abides_core.engine.kernel --- Simulation time: 2021-02-05 14:51:00, messages processed: 1,500,000, wallclock elapsed: 66.71s ---
+[9985] INFO abides_core.engine.kernel --- Simulation time: 2021-02-05 14:55:16, messages processed: 1,600,000, wallclock elapsed: 71.66s ---
+[9985] INFO abides_core.engine.kernel --- Simulation time: 2021-02-05 15:07:43, messages processed: 1,700,000, wallclock elapsed: 76.62s ---
+[9985] INFO abides_core.engine.kernel --- Simulation time: 2021-02-05 15:18:15, messages processed: 1,800,000, wallclock elapsed: 81.35s ---
+[9985] INFO abides_core.engine.kernel --- Simulation time: 2021-02-05 15:22:19, messages processed: 1,900,000, wallclock elapsed: 86.19s ---
+[9985] INFO abides_core.engine.kernel --- Simulation time: 2021-02-05 15:27:17, messages processed: 2,000,000, wallclock elapsed: 91.14s ---
+[9985] INFO abides_core.engine.kernel --- Simulation time: 2021-02-05 15:38:45, messages processed: 2,100,000, wallclock elapsed: 95.69s ---
+[9985] INFO abides_core.engine.kernel --- Simulation time: 2021-02-05 15:49:40, messages processed: 2,200,000, wallclock elapsed: 100.64s ---
+[9985] INFO abides_core.engine.kernel --- Simulation time: 2021-02-05 15:52:45, messages processed: 2,300,000, wallclock elapsed: 105.17s ---
+[9985] INFO abides_markets.agents.market_makers.adaptive_market_maker_agent ADAPTIVE_POV_MARKET_MAKER_AGENT_1 flattened position: 1813 shares of ABM at 2021-02-05 15:56:57
+[9985] INFO abides_core.engine.kernel --- Simulation time: 2021-02-05 15:58:11, messages processed: 2,400,000, wallclock elapsed: 109.89s ---
+[9985] INFO abides_core.engine.kernel --- Simulation time: 2021-02-05 15:59:30, messages processed: 2,500,000, wallclock elapsed: 113.87s ---
+[9985] INFO abides_core.engine.kernel Event Queue elapsed: 0:01:54.622043, messages: 2,525,189, messages per second: 22030.6
+[9985] INFO abides_core.engine.kernel Simulation ending!
+individual stable_day    seed=2    candidates/ft_abides50       PnL=$   -239.04 maxDD=$   532.07 fills= 306 inv= -182 hold= 27.4% (115s)
+
+Mean PnL by policy:
+  candidates/ft_abides25       mean=$   -179.44  min=$   -242.57  n=2
+  candidates/ft_abides50       mean=$   -244.36  min=$   -249.68  n=2
+Saved: outputs/abides_eval/v2/ft_stable_day.csv

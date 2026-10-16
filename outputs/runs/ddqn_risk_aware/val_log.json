@@ -1,0 +1,287 @@
+[
+  {
+    "step": 10000,
+    "mean_return_pct": 2.000314542648514,
+    "mean_drawdown_pct": 5.0958472498729925,
+    "worst_scenario_return_pct": -11.060539577840999,
+    "mean_pnl": 2000.3145426485144,
+    "mean_trades": 133.54166666666666,
+    "score": -3.312743976748232,
+    "per_scenario": {
+      "robust:stable": 162.86196981745402,
+      "robust:trend_up": -11060.539577841,
+      "robust:volatile": 4587.996572795625,
+      "robust:trend_down": 4351.502901416073,
+      "robust:mean_revert": 47.91726175049553,
+      "robust:low_liquidity": 1687.1946110643719,
+      "robust:stress": 12794.147751130076,
+      "robust:crowded": 3431.434851055019
+    }
+  },
+  {
+    "step": 20000,
+    "mean_return_pct": 4.068387907373264,
+    "mean_drawdown_pct": 1.6111435419893656,
+    "worst_scenario_return_pct": -0.36749837860536844,
+    "mean_pnl": 4068.387907373264,
+    "mean_trades": 170.95833333333334,
+    "score": 3.170941541727239,
+    "per_scenario": {
+      "robust:stable": 739.9970476924597,
+      "robust:trend_up": 3077.328145657181,
+      "robust:volatile": 576.9295518438012,
+      "robust:trend_down": 10795.04816692534,
+      "robust:mean_revert": -367.4983786053684,
+      "robust:low_liquidity": 4448.967860026009,
+      "robust:stress": 6864.779780064336,
+      "robust:crowded": 6411.551085382355
+    }
+  },
+  {
+    "step": 30000,
+    "mean_return_pct": 3.0002838724737413,
+    "mean_drawdown_pct": 3.1843611359861095,
+    "worst_scenario_return_pct": -6.311567998133241,
+    "mean_pnl": 3000.283872473741,
+    "mean_trades": 204.08333333333334,
+    "score": -0.16978869505262373,
+    "per_scenario": {
+      "robust:stable": 1037.1059655613255,
+      "robust:trend_up": 2106.6600769759293,
+      "robust:volatile": -6311.5679981332405,
+      "robust:trend_down": 10793.539898367619,
+      "robust:mean_revert": -80.35155250992102,
+      "robust:low_liquidity": 2494.9230368416415,
+      "robust:stress": 11442.894123113923,
+      "robust:crowded": 2519.0674295726544
+    }
+  },
+  {
+    "step": 40000,
+    "mean_return_pct": 2.5273227238845397,
+    "mean_drawdown_pct": 2.717563699350554,
+    "worst_scenario_return_pct": -1.4774669980677864,
+    "mean_pnl": 2527.3227238845393,
+    "mean_trades": 174.125,
+    "score": 0.7991741246923161,
+    "per_scenario": {
+      "robust:stable": -413.71110279570956,
+      "robust:trend_up": 4581.0159342365705,
+      "robust:volatile": -1477.4669980677863,
+      "robust:trend_down": 12554.275741023477,
+      "robust:mean_revert": -300.8771657365578,
+      "robust:low_liquidity": 495.6081184342329,
+      "robust:stress": 667.6138564770614,
+      "robust:crowded": 4112.123407505026
+    }
+  },
+  {
+    "step": 50000,
+    "mean_return_pct": 3.6024676263717854,
+    "mean_drawdown_pct": 1.473153858518419,
+    "worst_scenario_return_pct": -1.1386084490976887,
+    "mean_pnl": 3602.467626371785,
+    "mean_trades": 166.33333333333334,
+    "score": 2.581238584838154,
+    "per_scenario": {
+      "robust:stable": 968.7003345449242,
+      "robust:trend_up": 4221.088563012138,
+      "robust:volatile": -1138.608449097689,
+      "robust:trend_down": 9744.44189854689,
+      "robust:mean_revert": -337.68731203253265,
+      "robust:low_liquidity": 3494.622596589232,
+      "robust:stress": 7717.078446172852,
+      "robust:crowded": 4150.104933238467
+    }
+  },
+  {
+    "step": 60000,
+    "mean_return_pct": 4.026194825388878,
+    "mean_drawdown_pct": 1.7119768464091685,
+    "worst_scenario_return_pct": -0.06902505088421942,
+    "mean_pnl": 4026.1948253888786,
+    "mean_trades": 201.16666666666666,
+    "score": 3.1529501394632393,
+    "per_scenario": {
+      "robust:stable": 797.9303695483346,
+      "robust:trend_up": 338.0868556510929,
+      "robust:volatile": 2137.3007742061795,
+      "robust:trend_down": 13359.25412979802,
+      "robust:mean_revert": -69.02505088421943,
+      "robust:low_liquidity": 6202.296313130481,
+      "robust:stress": 6302.2231526084115,
+      "robust:crowded": 3141.4920590527277
+    }
+  },
+  {
+    "step": 70000,
+    "mean_return_pct": 4.495829127037791,
+    "mean_drawdown_pct": 1.6270180149343758,
+    "worst_scenario_return_pct": -0.1918582252954705,
+    "mean_pnl": 4495.82912703779,
+    "mean_trades": 173.41666666666666,
+    "score": 3.634355563246735,
+    "per_scenario": {
+      "robust:stable": 329.2357987764602,
+      "robust:trend_up": 3676.5267370973015,
+      "robust:volatile": 3256.12391202777,
+      "robust:trend_down": 13860.283908838746,
+      "robust:mean_revert": -191.85822529547053,
+      "robust:low_liquidity": 7285.034814781757,
+      "robust:stress": 4244.59162860893,
+      "robust:crowded": 3506.69444146683
+    }
+  },
+  {
+    "step": 80000,
+    "mean_return_pct": 3.8750140701632962,
+    "mean_drawdown_pct": 1.173243305534459,
+    "worst_scenario_return_pct": -0.2914931436862535,
+    "mean_pnl": 3875.0140701632968,
+    "mean_trades": 200.58333333333334,
+    "score": 3.2155191314745033,
+    "per_scenario": {
+      "robust:stable": 343.4554813172629,
+      "robust:trend_up": 1316.4508332232945,
+      "robust:volatile": 1042.7519845625309,
+      "robust:trend_down": 14803.631294824814,
+      "robust:mean_revert": -291.49314368625346,
+      "robust:low_liquidity": 4894.746218174206,
+      "robust:stress": 5402.632151328275,
+      "robust:crowded": 3487.937741562244
+    }
+  },
+  {
+    "step": 90000,
+    "mean_return_pct": 3.4858456220196654,
+    "mean_drawdown_pct": 1.84258537325312,
+    "worst_scenario_return_pct": 0.14511699466243336,
+    "mean_pnl": 3485.8456220196645,
+    "mean_trades": 204.70833333333334,
+    "score": 2.6008321840587136,
+    "per_scenario": {
+      "robust:stable": 651.401168092998,
+      "robust:trend_up": 1800.1735005333855,
+      "robust:volatile": 145.11699466243348,
+      "robust:trend_down": 10903.53134610289,
+      "robust:mean_revert": 455.57107660888386,
+      "robust:low_liquidity": 3435.496919169343,
+      "robust:stress": 7073.196822507122,
+      "robust:crowded": 3422.27714848026
+    }
+  },
+  {
+    "step": 100000,
+    "mean_return_pct": 5.608761016554089,
+    "mean_drawdown_pct": 1.7417249096346687,
+    "worst_scenario_return_pct": -0.05323937084479744,
+    "mean_pnl": 5608.76101655409,
+    "mean_trades": 190.66666666666666,
+    "score": 4.724588719025555,
+    "per_scenario": {
+      "robust:stable": 130.62402022965156,
+      "robust:trend_up": 2555.5972197123774,
+      "robust:volatile": 1159.2399001218437,
+      "robust:trend_down": 22866.011669238764,
+      "robust:mean_revert": -53.23937084479743,
+      "robust:low_liquidity": 3651.064380013942,
+      "robust:stress": 9941.333101938833,
+      "robust:crowded": 4619.457212022108
+    }
+  },
+  {
+    "step": 110000,
+    "mean_return_pct": 5.615120539310605,
+    "mean_drawdown_pct": 2.059867840667721,
+    "worst_scenario_return_pct": -0.24606291584508533,
+    "mean_pnl": 5615.120539310604,
+    "mean_trades": 209.125,
+    "score": 4.523670890015474,
+    "per_scenario": {
+      "robust:stable": -246.0629158450853,
+      "robust:trend_up": 2261.1939111645916,
+      "robust:volatile": 2328.452329643585,
+      "robust:trend_down": 15306.14853566514,
+      "robust:mean_revert": -9.676496800976262,
+      "robust:low_liquidity": 7446.321449027717,
+      "robust:stress": 14603.024519961278,
+      "robust:crowded": 3231.5629816685882
+    }
+  },
+  {
+    "step": 120000,
+    "mean_return_pct": 4.9809590021932095,
+    "mean_drawdown_pct": 1.7568474879154166,
+    "worst_scenario_return_pct": 0.6969798328210697,
+    "mean_pnl": 4980.95900219321,
+    "mean_trades": 209.75,
+    "score": 4.276780216440768,
+    "per_scenario": {
+      "robust:stable": 854.7061587502297,
+      "robust:trend_up": 2005.1185783374578,
+      "robust:volatile": 1537.7659145031794,
+      "robust:trend_down": 15296.138742397156,
+      "robust:mean_revert": 696.9798328210696,
+      "robust:low_liquidity": 5110.965915416416,
+      "robust:stress": 9990.07126586485,
+      "robust:crowded": 4355.9256094553175
+    }
+  },
+  {
+    "step": 130000,
+    "mean_return_pct": 4.83211620466016,
+    "mean_drawdown_pct": 1.2254878063614632,
+    "worst_scenario_return_pct": 0.6133985414650281,
+    "mean_pnl": 4832.116204660159,
+    "mean_trades": 206.25,
+    "score": 4.372721936845685,
+    "per_scenario": {
+      "robust:stable": 613.3985414650282,
+      "robust:trend_up": 3886.0984441659434,
+      "robust:volatile": 5744.386625221839,
+      "robust:trend_down": 13157.449182640548,
+      "robust:mean_revert": 810.5114987073708,
+      "robust:low_liquidity": 6975.233036076985,
+      "robust:stress": 4411.607683614774,
+      "robust:crowded": 3058.244625388785
+    }
+  },
+  {
+    "step": 140000,
+    "mean_return_pct": 5.19538232900482,
+    "mean_drawdown_pct": 0.9482266898105257,
+    "worst_scenario_return_pct": 0.2843389334015907,
+    "mean_pnl": 5195.382329004821,
+    "mean_trades": 210.875,
+    "score": 4.792353717449956,
+    "per_scenario": {
+      "robust:stable": 284.33893340159074,
+      "robust:trend_up": 1711.7591791644372,
+      "robust:volatile": 4998.860530260179,
+      "robust:trend_down": 16248.332724341142,
+      "robust:mean_revert": 533.7967504590633,
+      "robust:low_liquidity": 6483.033026701577,
+      "robust:stress": 7453.750332713865,
+      "robust:crowded": 3849.187154996713
+    }
+  },
+  {
+    "step": 150000,
+    "mean_return_pct": 3.9654979913160937,
+    "mean_drawdown_pct": 1.0712655447846404,
+    "worst_scenario_return_pct": 0.6277886955478656,
+    "mean_pnl": 3965.4979913160932,
+    "mean_trades": 210.66666666666666,
+    "score": 3.58681239281074,
+    "per_scenario": {
+      "robust:stable": 627.7886955478656,
+      "robust:trend_up": 4703.706511920954,
+      "robust:volatile": 1352.6700633957855,
+      "robust:trend_down": 11775.311816697102,
+      "robust:mean_revert": 988.6875121071449,
+      "robust:low_liquidity": 5851.984621834087,
+      "robust:stress": 5497.07329907341,
+      "robust:crowded": 926.7614099523975
+    }
+  }
+]

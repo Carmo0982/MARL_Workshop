@@ -1,0 +1,48 @@
+[8758] INFO abides_core.engine.kernel --- Simulation time: 2021-02-05 00:00:00, messages processed: 0, wallclock elapsed: 0.00s ---
+[8758] INFO abides_core.engine.kernel Event Queue elapsed: 0:00:00.796814, messages: 13,937, messages per second: 17490.9
+[8758] INFO abides_core.engine.kernel Simulation ending!
+individual low_liquidity seed=1    candidates/ddqn_risk_aware   PnL=$   -766.30 maxDD=$   832.19 fills= 264 inv=  -49 hold= 21.7% (2s)
+[8758] INFO abides_core.engine.kernel --- Simulation time: 2021-02-05 00:00:00, messages processed: 0, wallclock elapsed: 0.00s ---
+[8758] INFO abides_core.engine.kernel Event Queue elapsed: 0:00:00.816395, messages: 13,914, messages per second: 17043.2
+[8758] INFO abides_core.engine.kernel Simulation ending!
+individual low_liquidity seed=1    candidates/ddqn_starter_reward PnL=$   -321.25 maxDD=$   696.18 fills= 206 inv= -116 hold= 31.5% (1s)
+[8758] INFO abides_core.engine.kernel --- Simulation time: 2021-02-05 00:00:00, messages processed: 0, wallclock elapsed: 0.00s ---
+[8758] INFO abides_core.engine.kernel Event Queue elapsed: 0:00:01.309973, messages: 13,557, messages per second: 10349.1
+[8758] INFO abides_core.engine.kernel Simulation ending!
+individual low_liquidity seed=1    baseline/model               PnL=$   -392.49 maxDD=$ 1,867.09 fills= 196 inv=  252 hold= 37.4% (1s)
+[8758] INFO abides_core.engine.kernel --- Simulation time: 2021-02-05 00:00:00, messages processed: 0, wallclock elapsed: 0.00s ---
+[8758] INFO abides_core.engine.kernel Event Queue elapsed: 0:00:00.853847, messages: 13,162, messages per second: 15414.9
+[8758] INFO abides_core.engine.kernel Simulation ending!
+individual low_liquidity seed=1    hold                         PnL=$      0.00 maxDD=$     0.00 fills=   0 inv=    0 hold=100.0% (1s)
+[8758] INFO abides_core.engine.kernel --- Simulation time: 2021-02-05 00:00:00, messages processed: 0, wallclock elapsed: 0.00s ---
+[8758] INFO abides_core.engine.kernel Event Queue elapsed: 0:00:00.945043, messages: 13,309, messages per second: 14083.0
+[8758] INFO abides_core.engine.kernel Simulation ending!
+individual low_liquidity seed=1    mean_reversion               PnL=$    200.00 maxDD=$   130.50 fills=  14 inv=    0 hold= 93.8% (1s)
+[8758] INFO abides_core.engine.kernel --- Simulation time: 2021-02-05 00:00:00, messages processed: 0, wallclock elapsed: 0.00s ---
+[8758] INFO abides_core.engine.kernel Event Queue elapsed: 0:00:01.033311, messages: 12,004, messages per second: 11617.0
+[8758] INFO abides_core.engine.kernel Simulation ending!
+individual low_liquidity seed=2    candidates/ddqn_risk_aware   PnL=$   -576.27 maxDD=$   772.05 fills= 246 inv=   30 hold= 16.8% (1s)
+[8758] INFO abides_core.engine.kernel --- Simulation time: 2021-02-05 00:00:00, messages processed: 0, wallclock elapsed: 0.00s ---
+[8758] INFO abides_core.engine.kernel Event Queue elapsed: 0:00:00.854465, messages: 11,830, messages per second: 13844.9
+[8758] INFO abides_core.engine.kernel Simulation ending!
+individual low_liquidity seed=2    candidates/ddqn_starter_reward PnL=$   -470.51 maxDD=$   622.82 fills= 180 inv=  -22 hold= 34.5% (1s)
+[8758] INFO abides_core.engine.kernel --- Simulation time: 2021-02-05 00:00:00, messages processed: 0, wallclock elapsed: 0.00s ---
+[8758] INFO abides_core.engine.kernel Event Queue elapsed: 0:00:00.810702, messages: 12,002, messages per second: 14804.5
+[8758] INFO abides_core.engine.kernel Simulation ending!
+individual low_liquidity seed=2    baseline/model               PnL=$ -1,854.61 maxDD=$ 1,888.32 fills= 269 inv=  156 hold= 16.9% (1s)
+[8758] INFO abides_core.engine.kernel --- Simulation time: 2021-02-05 00:00:00, messages processed: 0, wallclock elapsed: 0.00s ---
+[8758] INFO abides_core.engine.kernel Event Queue elapsed: 0:00:00.545489, messages: 10,544, messages per second: 19329.4
+[8758] INFO abides_core.engine.kernel Simulation ending!
+individual low_liquidity seed=2    hold                         PnL=$      0.00 maxDD=$     0.00 fills=   0 inv=    0 hold=100.0% (1s)
+[8758] INFO abides_core.engine.kernel --- Simulation time: 2021-02-05 00:00:00, messages processed: 0, wallclock elapsed: 0.00s ---
+[8758] INFO abides_core.engine.kernel Event Queue elapsed: 0:00:00.649070, messages: 10,544, messages per second: 16244.8
+[8758] INFO abides_core.engine.kernel Simulation ending!
+individual low_liquidity seed=2    mean_reversion               PnL=$      0.00 maxDD=$     0.00 fills=   0 inv=    0 hold=100.0% (1s)
+
+Mean PnL by policy:
+  candidates/ddqn_risk_aware   mean=$   -671.29  min=$   -766.30  n=2
+  candidates/ddqn_starter_reward mean=$   -395.88  min=$   -470.51  n=2
+  baseline/model               mean=$ -1,123.55  min=$ -1,854.61  n=2
+  hold                         mean=$      0.00  min=$      0.00  n=2
+  mean_reversion               mean=$    100.00  min=$      0.00  n=2
+Saved: outputs/abides_eval/v1/low_liquidity.csv

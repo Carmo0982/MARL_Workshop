@@ -1,0 +1,6 @@
+Official simulator used for the assessment:
+https://github.com/GabrieleDiCorato/abides-ng
+
+ABIDES-NG is an open-source, local, agent-based discrete-event market simulator.
+The workshop uses the PyPI distribution of the same project for setup simplicity.
+The lecturer controls the assessment scenarios, seeds and exchange configuration.

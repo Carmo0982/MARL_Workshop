@@ -1,0 +1,44 @@
+ep=   20 step=   6201/150000 eps=0.899 sc=trend_up           R=  -335.11 pnl=$    -1,581 trades= 274 loss=21.1286 (11s)
+[val] step=  10000 score= -3.313 ret=  2.00% dd= 5.10% worst=-11.06% trades=  134  <- new best
+ep=   40 step=  12357/150000 eps=0.798 sc=trend_up           R=  -709.72 pnl=$    -2,821 trades= 200 loss=24.5995 (22s)
+ep=   60 step=  18319/150000 eps=0.701 sc=stress             R=   -24.39 pnl=$     4,161 trades= 326 loss=26.8921 (35s)
+[val] step=  20000 score=  3.171 ret=  4.07% dd= 1.61% worst= -0.37% trades=  171  <- new best
+ep=   80 step=  24516/150000 eps=0.600 sc=stable             R=  -201.14 pnl=$       642 trades= 343 loss=26.1919 (47s)
+[val] step=  30000 score= -0.170 ret=  3.00% dd= 3.18% worst= -6.31% trades=  204
+ep=  100 step=  30403/150000 eps=0.503 sc=mean_revert        R=  -435.21 pnl=$    -1,691 trades= 217 loss=28.4431 (61s)
+ep=  120 step=  35973/150000 eps=0.412 sc=crowded            R=  -330.82 pnl=$       430 trades= 223 loss=29.1902 (72s)
+[val] step=  40000 score=  0.799 ret=  2.53% dd= 2.72% worst= -1.48% trades=  174
+ep=  140 step=  42483/150000 eps=0.306 sc=stress             R=  -711.70 pnl=$        15 trades= 169 loss=28.2634 (86s)
+ep=  160 step=  48349/150000 eps=0.210 sc=practice_stable    R=  -285.73 pnl=$        22 trades= 284 loss=29.3287 (97s)
+[val] step=  50000 score=  2.581 ret=  3.60% dd= 1.47% worst= -1.14% trades=  166
+ep=  180 step=  54210/150000 eps=0.115 sc=low_liquidity      R=    49.58 pnl=$     2,054 trades= 159 loss=27.3305 (114s)
+ep=  200 step=  59775/150000 eps=0.024 sc=mean_revert        R=  -604.87 pnl=$    -1,523 trades= 251 loss=27.6986 (129s)
+[val] step=  60000 score=  3.153 ret=  4.03% dd= 1.71% worst= -0.07% trades=  201
+ep=  220 step=  66262/150000 eps=0.020 sc=stable             R=  -105.40 pnl=$      -210 trades= 195 loss=26.4336 (148s)
+[val] step=  70000 score=  3.634 ret=  4.50% dd= 1.63% worst= -0.19% trades=  173  <- new best
+ep=  240 step=  72311/150000 eps=0.020 sc=trend_up           R=  -918.11 pnl=$       295 trades= 267 loss=26.6902 (165s)
+ep=  260 step=  78244/150000 eps=0.020 sc=low_liquidity      R=   100.96 pnl=$     2,247 trades= 107 loss=26.5832 (180s)
+[val] step=  80000 score=  3.216 ret=  3.88% dd= 1.17% worst= -0.29% trades=  201
+ep=  280 step=  84114/150000 eps=0.020 sc=trend_up           R=    51.54 pnl=$     2,904 trades=  58 loss=25.5245 (194s)
+ep=  300 step=  89843/150000 eps=0.020 sc=trend_down         R=  -661.17 pnl=$     8,663 trades=  97 loss=24.9057 (204s)
+[val] step=  90000 score=  2.601 ret=  3.49% dd= 1.84% worst=  0.15% trades=  205
+ep=  320 step=  95737/150000 eps=0.020 sc=stress             R=  -334.29 pnl=$     3,822 trades= 250 loss=24.3984 (217s)
+[val] step= 100000 score=  4.725 ret=  5.61% dd= 1.74% worst= -0.05% trades=  191  <- new best
+ep=  340 step= 102028/150000 eps=0.020 sc=stress             R=  1083.84 pnl=$    22,601 trades= 287 loss=24.0658 (230s)
+ep=  360 step= 108064/150000 eps=0.020 sc=mean_revert        R=  -156.51 pnl=$      -277 trades= 270 loss=23.3269 (242s)
+[val] step= 110000 score=  4.524 ret=  5.62% dd= 2.06% worst= -0.25% trades=  209
+ep=  380 step= 114186/150000 eps=0.020 sc=practice_trending  R=    28.51 pnl=$     4,158 trades=  54 loss=23.7510 (255s)
+[val] step= 120000 score=  4.277 ret=  4.98% dd= 1.76% worst=  0.70% trades=  210
+ep=  400 step= 120060/150000 eps=0.020 sc=low_liquidity      R=    55.09 pnl=$     1,158 trades= 130 loss=23.3455 (267s)
+ep=  420 step= 125860/150000 eps=0.020 sc=low_liquidity      R=   311.21 pnl=$    10,977 trades= 192 loss=24.3695 (279s)
+[val] step= 130000 score=  4.373 ret=  4.83% dd= 1.23% worst=  0.61% trades=  206
+ep=  440 step= 132060/150000 eps=0.020 sc=crowded            R=   -53.02 pnl=$     5,310 trades= 303 loss=23.2164 (292s)
+ep=  460 step= 137686/150000 eps=0.020 sc=stress             R= -1374.25 pnl=$     1,702 trades= 168 loss=23.2171 (301s)
+[val] step= 140000 score=  4.792 ret=  5.20% dd= 0.95% worst=  0.28% trades=  211  <- new best
+ep=  480 step= 143954/150000 eps=0.020 sc=stable             R=  -232.21 pnl=$       199 trades= 245 loss=22.2197 (312s)
+[val] step= 150000 score=  3.587 ret=  3.97% dd= 1.07% worst=  0.63% trades=  211
+ep=  500 step= 150000/150000 eps=0.020 sc=trend_up           R=  -215.38 pnl=$      -750 trades=  32 loss=22.2446 (322s)
+
+Best validation score 4.792 at step 140000.
+Saved TorchScript policy to: outputs/candidates/ddqn_risk_aware.pt  (copied from outputs/runs/ddqn_risk_aware/model_best.pt)
+Run artefacts: outputs/runs/ddqn_risk_aware

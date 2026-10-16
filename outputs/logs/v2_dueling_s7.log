@@ -1,0 +1,57 @@
+ep=   20 step=   6201/200000 eps=0.924 sc=volatile           R=  -721.11 pnl=$    -1,346 trades= 271 loss=28.3871 (17s)
+[val] step=  10000 score= -2.745 ret= -0.53% dd= 1.95% worst= -4.95% trades=  190  <- new best
+ep=   40 step=  12357/200000 eps=0.849 sc=volatile           R= -2512.01 pnl=$    -9,288 trades= 206 loss=24.9969 (47s)
+ep=   60 step=  18319/200000 eps=0.776 sc=abides_volatile    R=  -101.82 pnl=$       -55 trades= 335 loss=22.9359 (74s)
+[val] step=  20000 score= -3.801 ret= -0.58% dd= 2.87% worst= -7.12% trades=  194
+ep=   80 step=  24516/200000 eps=0.700 sc=stable             R=  -573.42 pnl=$    -1,521 trades= 268 loss=22.0991 (109s)
+[val] step=  30000 score= -5.957 ret= -0.67% dd= 3.38% worst=-14.41% trades=  233
+ep=  100 step=  30403/200000 eps=0.628 sc=abides_calm        R=   -38.45 pnl=$       -59 trades= 192 loss=20.4469 (140s)
+ep=  120 step=  35973/200000 eps=0.559 sc=abides_stress      R= -1947.79 pnl=$     5,322 trades= 213 loss=20.3950 (167s)
+[val] step=  40000 score= -3.997 ret= -0.32% dd= 3.35% worst= -8.00% trades=  239
+ep=  140 step=  42483/200000 eps=0.480 sc=abides_volatile    R=  -144.24 pnl=$      -461 trades= 165 loss=21.4616 (199s)
+ep=  160 step=  48349/200000 eps=0.408 sc=practice_stable    R=   -79.14 pnl=$       106 trades= 234 loss=20.9016 (222s)
+[val] step=  50000 score= -2.037 ret=  0.85% dd= 2.64% worst= -6.27% trades=  216  <- new best
+ep=  180 step=  54210/200000 eps=0.336 sc=abides_trending    R=   -77.40 pnl=$      -184 trades= 285 loss=20.4030 (248s)
+ep=  200 step=  59775/200000 eps=0.268 sc=abides_calm        R=   -38.10 pnl=$       -10 trades= 260 loss=20.7769 (271s)
+[val] step=  60000 score=  0.276 ret=  1.04% dd= 1.21% worst= -0.65% trades=  218  <- new best
+ep=  220 step=  66262/200000 eps=0.188 sc=trend_up           R=   -55.54 pnl=$       154 trades= 212 loss=20.6988 (311s)
+[val] step=  70000 score= -0.272 ret=  1.37% dd= 1.62% worst= -3.33% trades=  213
+ep=  240 step=  72311/200000 eps=0.114 sc=volatile           R= -4635.51 pnl=$    11,045 trades= 294 loss=20.3430 (341s)
+ep=  260 step=  78244/200000 eps=0.042 sc=abides_trending    R=   -31.59 pnl=$       -33 trades= 179 loss=19.5983 (366s)
+[val] step=  80000 score=  1.476 ret=  2.19% dd= 1.19% worst= -0.49% trades=  228  <- new best
+ep=  280 step=  84114/200000 eps=0.020 sc=volatile           R=   -68.50 pnl=$       199 trades= 244 loss=18.5234 (394s)
+ep=  300 step=  89843/200000 eps=0.020 sc=stress             R= -2500.43 pnl=$    -3,767 trades= 158 loss=18.4801 (418s)
+[val] step=  90000 score=  1.645 ret=  2.24% dd= 1.04% worst= -0.31% trades=  201  <- new best
+ep=  320 step=  95737/200000 eps=0.020 sc=abides_volatile    R=   -30.61 pnl=$       233 trades= 277 loss=18.0772 (439s)
+[val] step= 100000 score=  1.058 ret=  1.82% dd= 1.12% worst= -0.82% trades=  215
+ep=  340 step= 102028/200000 eps=0.020 sc=abides_volatile    R=  -174.96 pnl=$      -553 trades= 299 loss=18.1807 (460s)
+ep=  360 step= 108064/200000 eps=0.020 sc=abides_calm        R=   -36.11 pnl=$        -7 trades= 242 loss=17.9586 (479s)
+[val] step= 110000 score=  1.707 ret=  2.32% dd= 1.16% worst= -0.11% trades=  238  <- new best
+ep=  380 step= 114186/200000 eps=0.020 sc=practice_trending  R=    21.57 pnl=$     1,475 trades= 165 loss=18.2920 (500s)
+[val] step= 120000 score=  1.881 ret=  2.33% dd= 0.84% worst= -0.13% trades=  216  <- new best
+ep=  400 step= 120060/200000 eps=0.020 sc=abides_trending    R=   -15.87 pnl=$       -28 trades= 151 loss=18.0072 (520s)
+ep=  420 step= 125860/200000 eps=0.020 sc=abides_trending    R=  -107.51 pnl=$      -357 trades= 248 loss=18.6334 (538s)
+[val] step= 130000 score=  2.000 ret=  2.42% dd= 0.82% worst= -0.04% trades=  216  <- new best
+ep=  440 step= 132060/200000 eps=0.020 sc=abides_stress      R= -3360.11 pnl=$    11,391 trades= 240 loss=17.8875 (559s)
+ep=  460 step= 137686/200000 eps=0.020 sc=abides_volatile    R=  -249.74 pnl=$      -545 trades= 207 loss=17.6715 (577s)
+[val] step= 140000 score=  1.703 ret=  2.25% dd= 1.08% worst= -0.01% trades=  234
+ep=  480 step= 143954/200000 eps=0.020 sc=stable             R=  -120.85 pnl=$       973 trades= 305 loss=17.9801 (598s)
+[val] step= 150000 score=  1.526 ret=  1.97% dd= 0.83% worst= -0.11% trades=  191
+ep=  500 step= 150244/200000 eps=0.020 sc=trend_down         R=  2204.77 pnl=$    41,717 trades= 180 loss=17.8553 (618s)
+ep=  520 step= 156497/200000 eps=0.020 sc=stable             R=   -11.75 pnl=$     2,036 trades= 195 loss=17.2959 (635s)
+[val] step= 160000 score=  1.970 ret=  2.73% dd= 1.10% worst= -0.84% trades=  206
+ep=  540 step= 162359/200000 eps=0.020 sc=abides_stress      R= -3281.78 pnl=$     1,064 trades= 260 loss=17.6112 (653s)
+ep=  560 step= 168443/200000 eps=0.020 sc=crowded            R=  -139.68 pnl=$     2,004 trades= 205 loss=16.8208 (674s)
+[val] step= 170000 score=  2.502 ret=  3.06% dd= 1.11% worst=  0.00% trades=  210  <- new best
+ep=  580 step= 174226/200000 eps=0.020 sc=crowded            R=    24.50 pnl=$     3,843 trades= 205 loss=16.8530 (692s)
+[val] step= 180000 score=  2.532 ret=  3.18% dd= 0.85% worst= -0.89% trades=  199  <- new best
+ep=  600 step= 180362/200000 eps=0.020 sc=practice_stable    R=   -26.56 pnl=$        26 trades= 124 loss=16.8081 (710s)
+ep=  620 step= 186276/200000 eps=0.020 sc=abides_trending    R=   -40.48 pnl=$       -84 trades= 102 loss=17.0079 (726s)
+[val] step= 190000 score=  2.403 ret=  2.81% dd= 0.83% worst=  0.02% trades=  204
+ep=  640 step= 192108/200000 eps=0.020 sc=mean_revert        R=  -356.92 pnl=$      -510 trades= 194 loss=16.4947 (743s)
+ep=  660 step= 198350/200000 eps=0.020 sc=crowded            R=  -203.86 pnl=$       272 trades= 320 loss=16.5581 (761s)
+[val] step= 200000 score=  2.577 ret=  2.95% dd= 0.78% worst=  0.05% trades=  206  <- new best
+
+Best validation score 2.577 at step 200000.
+Saved TorchScript policy to: outputs/candidates/v2_dueling_s7.pt  (copied from outputs/runs/v2_dueling_s7/model_best.pt)
+Run artefacts: outputs/runs/v2_dueling_s7

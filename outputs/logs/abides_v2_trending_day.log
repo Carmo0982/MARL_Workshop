@@ -1,0 +1,311 @@
+[9709] INFO abides_core.engine.kernel --- Simulation time: 2021-02-05 00:00:00, messages processed: 0, wallclock elapsed: 0.00s ---
+[9709] INFO abides_core.engine.kernel --- Simulation time: 2021-02-05 11:55:55, messages processed: 100,000, wallclock elapsed: 10.14s ---
+[9709] INFO abides_core.engine.kernel --- Simulation time: 2021-02-05 12:44:30, messages processed: 200,000, wallclock elapsed: 21.66s ---
+[9709] INFO abides_core.engine.kernel --- Simulation time: 2021-02-05 13:12:10, messages processed: 300,000, wallclock elapsed: 31.97s ---
+[9709] INFO abides_core.engine.kernel --- Simulation time: 2021-02-05 13:34:04, messages processed: 400,000, wallclock elapsed: 42.13s ---
+[9709] INFO abides_core.engine.kernel --- Simulation time: 2021-02-05 14:10:43, messages processed: 500,000, wallclock elapsed: 51.25s ---
+[9709] INFO abides_core.engine.kernel --- Simulation time: 2021-02-05 14:33:52, messages processed: 600,000, wallclock elapsed: 60.02s ---
+[9709] INFO abides_core.engine.kernel --- Simulation time: 2021-02-05 14:47:39, messages processed: 700,000, wallclock elapsed: 68.82s ---
+[9709] INFO abides_core.engine.kernel --- Simulation time: 2021-02-05 15:10:49, messages processed: 800,000, wallclock elapsed: 77.46s ---
+[9709] INFO abides_core.engine.kernel --- Simulation time: 2021-02-05 15:18:55, messages processed: 900,000, wallclock elapsed: 85.79s ---
+[9709] INFO abides_core.engine.kernel --- Simulation time: 2021-02-05 15:36:56, messages processed: 1,000,000, wallclock elapsed: 94.26s ---
+[9709] INFO abides_core.engine.kernel --- Simulation time: 2021-02-05 15:42:43, messages processed: 1,100,000, wallclock elapsed: 102.23s ---
+[9709] INFO abides_markets.agents.market_makers.adaptive_market_maker_agent ADAPTIVE_POV_MARKET_MAKER_AGENT_1 flattened position: -285 shares of ABM at 2021-02-05 15:55:14
+[9709] INFO abides_core.engine.kernel --- Simulation time: 2021-02-05 15:57:32, messages processed: 1,200,000, wallclock elapsed: 110.55s ---
+[9709] INFO abides_core.engine.kernel Event Queue elapsed: 0:01:52.020821, messages: 1,218,465, messages per second: 10877.1
+[9709] INFO abides_core.engine.kernel Simulation ending!
+individual trending_day  seed=1    candidates/v2_dueling_s7     PnL=$     12.00 maxDD=$   336.85 fills= 272 inv=  -24 hold= 22.2% (115s)
+[9709] INFO abides_core.engine.kernel --- Simulation time: 2021-02-05 00:00:00, messages processed: 0, wallclock elapsed: 0.00s ---
+[9709] INFO abides_core.engine.kernel --- Simulation time: 2021-02-05 11:12:01, messages processed: 100,000, wallclock elapsed: 8.95s ---
+[9709] INFO abides_core.engine.kernel --- Simulation time: 2021-02-05 12:26:49, messages processed: 200,000, wallclock elapsed: 18.39s ---
+[9709] INFO abides_core.engine.kernel --- Simulation time: 2021-02-05 13:10:09, messages processed: 300,000, wallclock elapsed: 27.21s ---
+[9709] INFO abides_core.engine.kernel --- Simulation time: 2021-02-05 13:31:27, messages processed: 400,000, wallclock elapsed: 36.27s ---
+[9709] INFO abides_core.engine.kernel --- Simulation time: 2021-02-05 14:08:21, messages processed: 500,000, wallclock elapsed: 45.63s ---
+[9709] INFO abides_core.engine.kernel --- Simulation time: 2021-02-05 14:27:32, messages processed: 600,000, wallclock elapsed: 55.44s ---
+[9709] INFO abides_core.engine.kernel --- Simulation time: 2021-02-05 14:47:39, messages processed: 700,000, wallclock elapsed: 64.62s ---
+[9709] INFO abides_core.engine.kernel --- Simulation time: 2021-02-05 15:04:59, messages processed: 800,000, wallclock elapsed: 74.30s ---
+[9709] INFO abides_core.engine.kernel --- Simulation time: 2021-02-05 15:25:05, messages processed: 900,000, wallclock elapsed: 83.13s ---
+[9709] INFO abides_core.engine.kernel --- Simulation time: 2021-02-05 15:49:25, messages processed: 1,000,000, wallclock elapsed: 92.68s ---
+[9709] INFO abides_markets.agents.market_makers.adaptive_market_maker_agent ADAPTIVE_POV_MARKET_MAKER_AGENT_1 flattened position: -220 shares of ABM at 2021-02-05 15:55:14
+[9709] INFO abides_core.engine.kernel Event Queue elapsed: 0:01:40.250359, messages: 1,089,584, messages per second: 10868.6
+[9709] INFO abides_core.engine.kernel Simulation ending!
+individual trending_day  seed=1    candidates/v2_dueling_s11    PnL=$     -0.36 maxDD=$ 1,036.07 fills= 294 inv=   90 hold= 10.7% (101s)
+[9709] INFO abides_core.engine.kernel --- Simulation time: 2021-02-05 00:00:00, messages processed: 0, wallclock elapsed: 0.00s ---
+[9709] INFO abides_core.engine.kernel --- Simulation time: 2021-02-05 11:42:38, messages processed: 100,000, wallclock elapsed: 8.70s ---
+[9709] INFO abides_core.engine.kernel --- Simulation time: 2021-02-05 12:44:22, messages processed: 200,000, wallclock elapsed: 17.12s ---
+[9709] INFO abides_core.engine.kernel --- Simulation time: 2021-02-05 13:13:40, messages processed: 300,000, wallclock elapsed: 24.84s ---
+[9709] INFO abides_core.engine.kernel --- Simulation time: 2021-02-05 13:40:14, messages processed: 400,000, wallclock elapsed: 33.45s ---
+[9709] INFO abides_core.engine.kernel --- Simulation time: 2021-02-05 14:11:58, messages processed: 500,000, wallclock elapsed: 41.66s ---
+[9709] INFO abides_core.engine.kernel --- Simulation time: 2021-02-05 14:31:43, messages processed: 600,000, wallclock elapsed: 50.02s ---
+[9709] INFO abides_core.engine.kernel --- Simulation time: 2021-02-05 14:55:29, messages processed: 700,000, wallclock elapsed: 58.92s ---
+[9709] INFO abides_core.engine.kernel --- Simulation time: 2021-02-05 15:15:56, messages processed: 800,000, wallclock elapsed: 66.80s ---
+[9709] INFO abides_core.engine.kernel --- Simulation time: 2021-02-05 15:27:24, messages processed: 900,000, wallclock elapsed: 73.69s ---
+[9709] INFO abides_core.engine.kernel --- Simulation time: 2021-02-05 15:41:51, messages processed: 1,000,000, wallclock elapsed: 79.44s ---
+[9709] INFO abides_core.engine.kernel --- Simulation time: 2021-02-05 15:52:27, messages processed: 1,100,000, wallclock elapsed: 85.01s ---
+[9709] INFO abides_markets.agents.market_makers.adaptive_market_maker_agent ADAPTIVE_POV_MARKET_MAKER_AGENT_1 flattened position: -262 shares of ABM at 2021-02-05 15:55:14
+[9709] INFO abides_core.engine.kernel Event Queue elapsed: 0:01:27.297583, messages: 1,135,413, messages per second: 13006.2
+[9709] INFO abides_core.engine.kernel Simulation ending!
+individual trending_day  seed=1    candidates/v2_mlp_dqn_s7     PnL=$     19.46 maxDD=$   633.56 fills= 349 inv=  181 hold=  4.6% (88s)
+[9709] INFO abides_core.engine.kernel --- Simulation time: 2021-02-05 00:00:00, messages processed: 0, wallclock elapsed: 0.00s ---
+[9709] INFO abides_core.engine.kernel --- Simulation time: 2021-02-05 11:34:51, messages processed: 100,000, wallclock elapsed: 4.91s ---
+[9709] INFO abides_core.engine.kernel --- Simulation time: 2021-02-05 12:26:51, messages processed: 200,000, wallclock elapsed: 9.92s ---
+[9709] INFO abides_core.engine.kernel --- Simulation time: 2021-02-05 12:53:41, messages processed: 300,000, wallclock elapsed: 14.76s ---
+[9709] INFO abides_core.engine.kernel --- Simulation time: 2021-02-05 13:16:02, messages processed: 400,000, wallclock elapsed: 19.85s ---
+[9709] INFO abides_core.engine.kernel --- Simulation time: 2021-02-05 13:31:56, messages processed: 500,000, wallclock elapsed: 24.55s ---
+[9709] INFO abides_core.engine.kernel --- Simulation time: 2021-02-05 13:51:08, messages processed: 600,000, wallclock elapsed: 30.91s ---
+[9709] INFO abides_core.engine.kernel --- Simulation time: 2021-02-05 14:11:58, messages processed: 700,000, wallclock elapsed: 36.45s ---
+[9709] INFO abides_core.engine.kernel --- Simulation time: 2021-02-05 14:30:44, messages processed: 800,000, wallclock elapsed: 42.21s ---
+[9709] INFO abides_core.engine.kernel --- Simulation time: 2021-02-05 14:47:50, messages processed: 900,000, wallclock elapsed: 47.52s ---
+[9709] INFO abides_core.engine.kernel --- Simulation time: 2021-02-05 15:02:07, messages processed: 1,000,000, wallclock elapsed: 53.03s ---
+[9709] INFO abides_core.engine.kernel --- Simulation time: 2021-02-05 15:14:13, messages processed: 1,100,000, wallclock elapsed: 58.43s ---
+[9709] INFO abides_core.engine.kernel --- Simulation time: 2021-02-05 15:20:22, messages processed: 1,200,000, wallclock elapsed: 64.19s ---
+[9709] INFO abides_core.engine.kernel --- Simulation time: 2021-02-05 15:30:19, messages processed: 1,300,000, wallclock elapsed: 70.12s ---
+[9709] INFO abides_core.engine.kernel --- Simulation time: 2021-02-05 15:39:13, messages processed: 1,400,000, wallclock elapsed: 75.34s ---
+[9709] INFO abides_core.engine.kernel --- Simulation time: 2021-02-05 15:47:51, messages processed: 1,500,000, wallclock elapsed: 81.32s ---
+[9709] INFO abides_markets.agents.market_makers.adaptive_market_maker_agent ADAPTIVE_POV_MARKET_MAKER_AGENT_1 flattened position: 205 shares of ABM at 2021-02-05 15:55:14
+[9709] INFO abides_core.engine.kernel --- Simulation time: 2021-02-05 15:59:44, messages processed: 1,600,000, wallclock elapsed: 86.81s ---
+[9709] INFO abides_core.engine.kernel Event Queue elapsed: 0:01:26.898784, messages: 1,602,460, messages per second: 18440.5
+[9709] INFO abides_core.engine.kernel Simulation ending!
+individual trending_day  seed=1    candidates/ddqn_risk_aware   PnL=$    459.20 maxDD=$   483.17 fills= 361 inv=   10 hold=  7.8% (88s)
+[9709] INFO abides_core.engine.kernel --- Simulation time: 2021-02-05 00:00:00, messages processed: 0, wallclock elapsed: 0.00s ---
+[9709] INFO abides_core.engine.kernel --- Simulation time: 2021-02-05 11:16:32, messages processed: 100,000, wallclock elapsed: 5.74s ---
+[9709] INFO abides_core.engine.kernel --- Simulation time: 2021-02-05 12:00:54, messages processed: 200,000, wallclock elapsed: 12.46s ---
+[9709] INFO abides_core.engine.kernel --- Simulation time: 2021-02-05 12:41:22, messages processed: 300,000, wallclock elapsed: 18.63s ---
+[9709] INFO abides_core.engine.kernel --- Simulation time: 2021-02-05 13:10:51, messages processed: 400,000, wallclock elapsed: 24.35s ---
+[9709] INFO abides_core.engine.kernel --- Simulation time: 2021-02-05 13:25:52, messages processed: 500,000, wallclock elapsed: 30.32s ---
+[9709] INFO abides_core.engine.kernel --- Simulation time: 2021-02-05 13:49:05, messages processed: 600,000, wallclock elapsed: 36.59s ---
+[9709] INFO abides_core.engine.kernel --- Simulation time: 2021-02-05 14:12:22, messages processed: 700,000, wallclock elapsed: 42.17s ---
+[9709] INFO abides_core.engine.kernel --- Simulation time: 2021-02-05 14:27:43, messages processed: 800,000, wallclock elapsed: 47.95s ---
+[9709] INFO abides_core.engine.kernel --- Simulation time: 2021-02-05 14:45:36, messages processed: 900,000, wallclock elapsed: 53.62s ---
+[9709] INFO abides_core.engine.kernel --- Simulation time: 2021-02-05 14:55:59, messages processed: 1,000,000, wallclock elapsed: 59.33s ---
+[9709] INFO abides_core.engine.kernel --- Simulation time: 2021-02-05 15:09:14, messages processed: 1,100,000, wallclock elapsed: 64.81s ---
+[9709] INFO abides_core.engine.kernel --- Simulation time: 2021-02-05 15:20:22, messages processed: 1,200,000, wallclock elapsed: 69.71s ---
+[9709] INFO abides_core.engine.kernel --- Simulation time: 2021-02-05 15:29:47, messages processed: 1,300,000, wallclock elapsed: 74.77s ---
+[9709] INFO abides_core.engine.kernel --- Simulation time: 2021-02-05 15:38:33, messages processed: 1,400,000, wallclock elapsed: 79.63s ---
+[9709] INFO abides_core.engine.kernel --- Simulation time: 2021-02-05 15:42:07, messages processed: 1,500,000, wallclock elapsed: 84.48s ---
+[9709] INFO abides_core.engine.kernel --- Simulation time: 2021-02-05 15:50:38, messages processed: 1,600,000, wallclock elapsed: 89.33s ---
+[9709] INFO abides_markets.agents.market_makers.adaptive_market_maker_agent ADAPTIVE_POV_MARKET_MAKER_AGENT_1 flattened position: -389 shares of ABM at 2021-02-05 15:55:14
+[9709] INFO abides_core.engine.kernel --- Simulation time: 2021-02-05 15:57:05, messages processed: 1,700,000, wallclock elapsed: 94.02s ---
+[9709] INFO abides_core.engine.kernel Event Queue elapsed: 0:01:35.617031, messages: 1,732,561, messages per second: 18119.8
+[9709] INFO abides_core.engine.kernel Simulation ending!
+individual trending_day  seed=1    candidates/ddqn_starter_reward PnL=$  1,698.66 maxDD=$ 1,160.48 fills= 340 inv=   44 hold=  9.9% (96s)
+[9709] INFO abides_core.engine.kernel --- Simulation time: 2021-02-05 00:00:00, messages processed: 0, wallclock elapsed: 0.00s ---
+[9709] INFO abides_core.engine.kernel --- Simulation time: 2021-02-05 11:40:52, messages processed: 100,000, wallclock elapsed: 6.12s ---
+[9709] INFO abides_core.engine.kernel --- Simulation time: 2021-02-05 12:52:35, messages processed: 200,000, wallclock elapsed: 12.14s ---
+[9709] INFO abides_core.engine.kernel --- Simulation time: 2021-02-05 13:14:35, messages processed: 300,000, wallclock elapsed: 17.81s ---
+[9709] INFO abides_core.engine.kernel --- Simulation time: 2021-02-05 13:45:52, messages processed: 400,000, wallclock elapsed: 23.10s ---
+[9709] INFO abides_core.engine.kernel --- Simulation time: 2021-02-05 14:09:38, messages processed: 500,000, wallclock elapsed: 28.26s ---
+[9709] INFO abides_core.engine.kernel --- Simulation time: 2021-02-05 14:24:37, messages processed: 600,000, wallclock elapsed: 32.90s ---
+[9709] INFO abides_core.engine.kernel --- Simulation time: 2021-02-05 14:34:37, messages processed: 700,000, wallclock elapsed: 37.65s ---
+[9709] INFO abides_core.engine.kernel --- Simulation time: 2021-02-05 14:47:13, messages processed: 800,000, wallclock elapsed: 42.35s ---
+[9709] INFO abides_core.engine.kernel --- Simulation time: 2021-02-05 15:02:07, messages processed: 900,000, wallclock elapsed: 47.12s ---
+[9709] INFO abides_core.engine.kernel --- Simulation time: 2021-02-05 15:09:14, messages processed: 1,000,000, wallclock elapsed: 51.66s ---
+[9709] INFO abides_core.engine.kernel --- Simulation time: 2021-02-05 15:18:30, messages processed: 1,100,000, wallclock elapsed: 56.63s ---
+[9709] INFO abides_core.engine.kernel --- Simulation time: 2021-02-05 15:24:18, messages processed: 1,200,000, wallclock elapsed: 62.25s ---
+[9709] INFO abides_core.engine.kernel --- Simulation time: 2021-02-05 15:37:55, messages processed: 1,300,000, wallclock elapsed: 67.05s ---
+[9709] INFO abides_core.engine.kernel --- Simulation time: 2021-02-05 15:40:39, messages processed: 1,400,000, wallclock elapsed: 71.95s ---
+[9709] INFO abides_core.engine.kernel --- Simulation time: 2021-02-05 15:46:20, messages processed: 1,500,000, wallclock elapsed: 76.94s ---
+[9709] INFO abides_core.engine.kernel --- Simulation time: 2021-02-05 15:51:07, messages processed: 1,600,000, wallclock elapsed: 82.41s ---
+[9709] INFO abides_markets.agents.market_makers.adaptive_market_maker_agent ADAPTIVE_POV_MARKET_MAKER_AGENT_1 flattened position: -342 shares of ABM at 2021-02-05 15:55:14
+[9709] INFO abides_core.engine.kernel --- Simulation time: 2021-02-05 15:55:35, messages processed: 1,700,000, wallclock elapsed: 87.11s ---
+[9709] INFO abides_core.engine.kernel Event Queue elapsed: 0:01:29.660613, messages: 1,759,176, messages per second: 19620.4
+[9709] INFO abides_core.engine.kernel Simulation ending!
+individual trending_day  seed=1    baseline/model               PnL=$   -200.15 maxDD=$ 3,808.51 fills= 287 inv=  491 hold= 26.9% (90s)
+[9709] INFO abides_core.engine.kernel --- Simulation time: 2021-02-05 00:00:00, messages processed: 0, wallclock elapsed: 0.00s ---
+[9709] INFO abides_core.engine.kernel --- Simulation time: 2021-02-05 11:34:30, messages processed: 100,000, wallclock elapsed: 5.50s ---
+[9709] INFO abides_core.engine.kernel --- Simulation time: 2021-02-05 12:28:20, messages processed: 200,000, wallclock elapsed: 12.60s ---
+[9709] INFO abides_core.engine.kernel --- Simulation time: 2021-02-05 13:09:29, messages processed: 300,000, wallclock elapsed: 22.16s ---
+[9709] INFO abides_core.engine.kernel --- Simulation time: 2021-02-05 13:27:49, messages processed: 400,000, wallclock elapsed: 29.52s ---
+[9709] INFO abides_core.engine.kernel --- Simulation time: 2021-02-05 13:44:59, messages processed: 500,000, wallclock elapsed: 36.94s ---
+[9709] INFO abides_core.engine.kernel --- Simulation time: 2021-02-05 14:05:23, messages processed: 600,000, wallclock elapsed: 44.01s ---
+[9709] INFO abides_core.engine.kernel --- Simulation time: 2021-02-05 14:18:47, messages processed: 700,000, wallclock elapsed: 50.91s ---
+[9709] INFO abides_core.engine.kernel --- Simulation time: 2021-02-05 14:30:21, messages processed: 800,000, wallclock elapsed: 57.37s ---
+[9709] INFO abides_core.engine.kernel --- Simulation time: 2021-02-05 14:46:50, messages processed: 900,000, wallclock elapsed: 64.17s ---
+[9709] INFO abides_core.engine.kernel --- Simulation time: 2021-02-05 14:56:18, messages processed: 1,000,000, wallclock elapsed: 71.04s ---
+[9709] INFO abides_core.engine.kernel --- Simulation time: 2021-02-05 15:17:44, messages processed: 1,100,000, wallclock elapsed: 78.08s ---
+[9709] INFO abides_core.engine.kernel --- Simulation time: 2021-02-05 15:27:25, messages processed: 1,200,000, wallclock elapsed: 85.08s ---
+[9709] INFO abides_core.engine.kernel --- Simulation time: 2021-02-05 15:40:39, messages processed: 1,300,000, wallclock elapsed: 91.38s ---
+[9709] INFO abides_core.engine.kernel --- Simulation time: 2021-02-05 15:50:33, messages processed: 1,400,000, wallclock elapsed: 98.07s ---
+[9709] INFO abides_markets.agents.market_makers.adaptive_market_maker_agent ADAPTIVE_POV_MARKET_MAKER_AGENT_1 flattened position: -220 shares of ABM at 2021-02-05 15:55:14
+[9709] INFO abides_core.engine.kernel --- Simulation time: 2021-02-05 15:59:49, messages processed: 1,500,000, wallclock elapsed: 104.31s ---
+[9709] INFO abides_core.engine.kernel Event Queue elapsed: 0:01:44.506008, messages: 1,504,765, messages per second: 14398.8
+[9709] INFO abides_core.engine.kernel Simulation ending!
+individual trending_day  seed=1    hold                         PnL=$      0.00 maxDD=$     0.00 fills=   0 inv=    0 hold=100.0% (105s)
+[9709] INFO abides_core.engine.kernel --- Simulation time: 2021-02-05 00:00:00, messages processed: 0, wallclock elapsed: 0.00s ---
+[9709] INFO abides_core.engine.kernel --- Simulation time: 2021-02-05 11:34:30, messages processed: 100,000, wallclock elapsed: 7.29s ---
+[9709] INFO abides_core.engine.kernel --- Simulation time: 2021-02-05 12:28:20, messages processed: 200,000, wallclock elapsed: 15.33s ---
+[9709] INFO abides_core.engine.kernel --- Simulation time: 2021-02-05 13:09:29, messages processed: 300,000, wallclock elapsed: 22.54s ---
+[9709] INFO abides_core.engine.kernel --- Simulation time: 2021-02-05 13:27:49, messages processed: 400,000, wallclock elapsed: 29.97s ---
+[9709] INFO abides_core.engine.kernel --- Simulation time: 2021-02-05 13:44:36, messages processed: 500,000, wallclock elapsed: 36.76s ---
+[9709] INFO abides_core.engine.kernel --- Simulation time: 2021-02-05 14:05:23, messages processed: 600,000, wallclock elapsed: 44.08s ---
+[9709] INFO abides_core.engine.kernel --- Simulation time: 2021-02-05 14:21:50, messages processed: 700,000, wallclock elapsed: 49.94s ---
+[9709] INFO abides_core.engine.kernel --- Simulation time: 2021-02-05 14:33:48, messages processed: 800,000, wallclock elapsed: 55.82s ---
+[9709] INFO abides_core.engine.kernel --- Simulation time: 2021-02-05 14:52:46, messages processed: 900,000, wallclock elapsed: 61.40s ---
+[9709] INFO abides_core.engine.kernel --- Simulation time: 2021-02-05 15:05:58, messages processed: 1,000,000, wallclock elapsed: 67.30s ---
+[9709] INFO abides_core.engine.kernel --- Simulation time: 2021-02-05 15:18:46, messages processed: 1,100,000, wallclock elapsed: 73.02s ---
+[9709] INFO abides_core.engine.kernel --- Simulation time: 2021-02-05 15:36:21, messages processed: 1,200,000, wallclock elapsed: 78.76s ---
+[9709] INFO abides_core.engine.kernel --- Simulation time: 2021-02-05 15:41:50, messages processed: 1,300,000, wallclock elapsed: 84.53s ---
+[9709] INFO abides_core.engine.kernel --- Simulation time: 2021-02-05 15:52:36, messages processed: 1,400,000, wallclock elapsed: 89.91s ---
+[9709] INFO abides_markets.agents.market_makers.adaptive_market_maker_agent ADAPTIVE_POV_MARKET_MAKER_AGENT_1 flattened position: -220 shares of ABM at 2021-02-05 15:55:14
+[9709] INFO abides_core.engine.kernel Event Queue elapsed: 0:01:34.659931, messages: 1,481,694, messages per second: 15652.8
+[9709] INFO abides_core.engine.kernel Simulation ending!
+individual trending_day  seed=1    mean_reversion               PnL=$    220.60 maxDD=$   190.95 fills=  47 inv=    0 hold= 84.5% (95s)
+[9709] INFO abides_core.engine.kernel --- Simulation time: 2021-02-05 00:00:00, messages processed: 0, wallclock elapsed: 0.00s ---
+[9709] INFO abides_core.engine.kernel --- Simulation time: 2021-02-05 11:18:59, messages processed: 100,000, wallclock elapsed: 5.55s ---
+[9709] INFO abides_core.engine.kernel --- Simulation time: 2021-02-05 12:06:10, messages processed: 200,000, wallclock elapsed: 11.74s ---
+[9709] INFO abides_core.engine.kernel --- Simulation time: 2021-02-05 12:54:54, messages processed: 300,000, wallclock elapsed: 18.13s ---
+[9709] INFO abides_core.engine.kernel --- Simulation time: 2021-02-05 13:16:30, messages processed: 400,000, wallclock elapsed: 24.88s ---
+[9709] INFO abides_core.engine.kernel --- Simulation time: 2021-02-05 14:05:11, messages processed: 500,000, wallclock elapsed: 31.57s ---
+[9709] INFO abides_core.engine.kernel --- Simulation time: 2021-02-05 14:35:19, messages processed: 600,000, wallclock elapsed: 38.26s ---
+[9709] INFO abides_core.engine.kernel --- Simulation time: 2021-02-05 14:54:54, messages processed: 700,000, wallclock elapsed: 44.68s ---
+[9709] INFO abides_core.engine.kernel --- Simulation time: 2021-02-05 15:12:17, messages processed: 800,000, wallclock elapsed: 51.46s ---
+[9709] INFO abides_core.engine.kernel --- Simulation time: 2021-02-05 15:29:40, messages processed: 900,000, wallclock elapsed: 57.85s ---
+[9709] INFO abides_core.engine.kernel --- Simulation time: 2021-02-05 15:47:05, messages processed: 1,000,000, wallclock elapsed: 63.85s ---
+[9709] INFO abides_markets.agents.market_makers.adaptive_market_maker_agent ADAPTIVE_POV_MARKET_MAKER_AGENT_1 flattened position: 387 shares of ABM at 2021-02-05 15:56:57
+[9709] INFO abides_core.engine.kernel Event Queue elapsed: 0:01:09.231997, messages: 1,097,069, messages per second: 15846.3
+[9709] INFO abides_core.engine.kernel Simulation ending!
+individual trending_day  seed=2    candidates/v2_dueling_s7     PnL=$    131.44 maxDD=$   483.07 fills= 268 inv=   24 hold= 18.0% (70s)
+[9709] INFO abides_core.engine.kernel --- Simulation time: 2021-02-05 00:00:00, messages processed: 0, wallclock elapsed: 0.00s ---
+[9709] INFO abides_core.engine.kernel --- Simulation time: 2021-02-05 11:55:00, messages processed: 100,000, wallclock elapsed: 4.99s ---
+[9709] INFO abides_core.engine.kernel --- Simulation time: 2021-02-05 12:42:59, messages processed: 200,000, wallclock elapsed: 11.09s ---
+[9709] INFO abides_core.engine.kernel --- Simulation time: 2021-02-05 13:18:04, messages processed: 300,000, wallclock elapsed: 17.60s ---
+[9709] INFO abides_core.engine.kernel --- Simulation time: 2021-02-05 14:09:48, messages processed: 400,000, wallclock elapsed: 24.19s ---
+[9709] INFO abides_core.engine.kernel --- Simulation time: 2021-02-05 14:41:35, messages processed: 500,000, wallclock elapsed: 30.30s ---
+[9709] INFO abides_core.engine.kernel --- Simulation time: 2021-02-05 15:00:56, messages processed: 600,000, wallclock elapsed: 35.79s ---
+[9709] INFO abides_core.engine.kernel --- Simulation time: 2021-02-05 15:12:45, messages processed: 700,000, wallclock elapsed: 40.88s ---
+[9709] INFO abides_core.engine.kernel --- Simulation time: 2021-02-05 15:29:40, messages processed: 800,000, wallclock elapsed: 45.76s ---
+[9709] INFO abides_core.engine.kernel --- Simulation time: 2021-02-05 15:43:53, messages processed: 900,000, wallclock elapsed: 50.70s ---
+[9709] INFO abides_core.engine.kernel --- Simulation time: 2021-02-05 15:54:25, messages processed: 1,000,000, wallclock elapsed: 55.61s ---
+[9709] INFO abides_markets.agents.market_makers.adaptive_market_maker_agent ADAPTIVE_POV_MARKET_MAKER_AGENT_1 flattened position: -74 shares of ABM at 2021-02-05 15:56:57
+[9709] INFO abides_core.engine.kernel Event Queue elapsed: 0:00:57.678556, messages: 1,041,309, messages per second: 18053.7
+[9709] INFO abides_core.engine.kernel Simulation ending!
+individual trending_day  seed=2    candidates/v2_dueling_s11    PnL=$   -223.81 maxDD=$ 2,173.47 fills= 260 inv=   78 hold=  8.9% (58s)
+[9709] INFO abides_core.engine.kernel --- Simulation time: 2021-02-05 00:00:00, messages processed: 0, wallclock elapsed: 0.00s ---
+[9709] INFO abides_core.engine.kernel --- Simulation time: 2021-02-05 11:59:30, messages processed: 100,000, wallclock elapsed: 4.73s ---
+[9709] INFO abides_core.engine.kernel --- Simulation time: 2021-02-05 12:49:22, messages processed: 200,000, wallclock elapsed: 9.96s ---
+[9709] INFO abides_core.engine.kernel --- Simulation time: 2021-02-05 13:17:31, messages processed: 300,000, wallclock elapsed: 15.19s ---
+[9709] INFO abides_core.engine.kernel --- Simulation time: 2021-02-05 14:02:33, messages processed: 400,000, wallclock elapsed: 20.50s ---
+[9709] INFO abides_core.engine.kernel --- Simulation time: 2021-02-05 14:30:49, messages processed: 500,000, wallclock elapsed: 26.70s ---
+[9709] INFO abides_core.engine.kernel --- Simulation time: 2021-02-05 14:47:19, messages processed: 600,000, wallclock elapsed: 31.70s ---
+[9709] INFO abides_core.engine.kernel --- Simulation time: 2021-02-05 15:12:45, messages processed: 700,000, wallclock elapsed: 36.46s ---
+[9709] INFO abides_core.engine.kernel --- Simulation time: 2021-02-05 15:25:46, messages processed: 800,000, wallclock elapsed: 41.16s ---
+[9709] INFO abides_core.engine.kernel --- Simulation time: 2021-02-05 15:38:40, messages processed: 900,000, wallclock elapsed: 45.51s ---
+[9709] INFO abides_core.engine.kernel --- Simulation time: 2021-02-05 15:51:08, messages processed: 1,000,000, wallclock elapsed: 49.74s ---
+[9709] INFO abides_markets.agents.market_makers.adaptive_market_maker_agent ADAPTIVE_POV_MARKET_MAKER_AGENT_1 flattened position: 434 shares of ABM at 2021-02-05 15:56:57
+[9709] INFO abides_core.engine.kernel Event Queue elapsed: 0:00:52.918759, messages: 1,075,313, messages per second: 20320.1
+[9709] INFO abides_core.engine.kernel Simulation ending!
+individual trending_day  seed=2    candidates/v2_mlp_dqn_s7     PnL=$   -848.38 maxDD=$ 1,534.88 fills= 319 inv=  391 hold=  3.6% (53s)
+[9709] INFO abides_core.engine.kernel --- Simulation time: 2021-02-05 00:00:00, messages processed: 0, wallclock elapsed: 0.00s ---
+[9709] INFO abides_core.engine.kernel --- Simulation time: 2021-02-05 11:30:32, messages processed: 100,000, wallclock elapsed: 4.51s ---
+[9709] INFO abides_core.engine.kernel --- Simulation time: 2021-02-05 12:14:08, messages processed: 200,000, wallclock elapsed: 8.91s ---
+[9709] INFO abides_core.engine.kernel --- Simulation time: 2021-02-05 12:53:19, messages processed: 300,000, wallclock elapsed: 13.90s ---
+[9709] INFO abides_core.engine.kernel --- Simulation time: 2021-02-05 13:13:12, messages processed: 400,000, wallclock elapsed: 18.98s ---
+[9709] INFO abides_core.engine.kernel --- Simulation time: 2021-02-05 13:48:48, messages processed: 500,000, wallclock elapsed: 24.29s ---
+[9709] INFO abides_core.engine.kernel --- Simulation time: 2021-02-05 14:12:01, messages processed: 600,000, wallclock elapsed: 29.40s ---
+[9709] INFO abides_core.engine.kernel --- Simulation time: 2021-02-05 14:40:50, messages processed: 700,000, wallclock elapsed: 34.40s ---
+[9709] INFO abides_core.engine.kernel --- Simulation time: 2021-02-05 14:58:01, messages processed: 800,000, wallclock elapsed: 39.37s ---
+[9709] INFO abides_core.engine.kernel --- Simulation time: 2021-02-05 15:07:53, messages processed: 900,000, wallclock elapsed: 44.51s ---
+[9709] INFO abides_core.engine.kernel --- Simulation time: 2021-02-05 15:16:48, messages processed: 1,000,000, wallclock elapsed: 49.40s ---
+[9709] INFO abides_core.engine.kernel --- Simulation time: 2021-02-05 15:31:04, messages processed: 1,100,000, wallclock elapsed: 54.41s ---
+[9709] INFO abides_core.engine.kernel --- Simulation time: 2021-02-05 15:47:38, messages processed: 1,200,000, wallclock elapsed: 59.33s ---
+[9709] INFO abides_markets.agents.market_makers.adaptive_market_maker_agent ADAPTIVE_POV_MARKET_MAKER_AGENT_1 flattened position: 387 shares of ABM at 2021-02-05 15:56:57
+[9709] INFO abides_core.engine.kernel Event Queue elapsed: 0:01:03.813140, messages: 1,293,807, messages per second: 20274.9
+[9709] INFO abides_core.engine.kernel Simulation ending!
+individual trending_day  seed=2    candidates/ddqn_risk_aware   PnL=$   -104.56 maxDD=$   171.96 fills= 267 inv=   37 hold= 23.8% (64s)
+[9709] INFO abides_core.engine.kernel --- Simulation time: 2021-02-05 00:00:00, messages processed: 0, wallclock elapsed: 0.00s ---
+[9709] INFO abides_core.engine.kernel --- Simulation time: 2021-02-05 11:48:23, messages processed: 100,000, wallclock elapsed: 4.26s ---
+[9709] INFO abides_core.engine.kernel --- Simulation time: 2021-02-05 12:29:46, messages processed: 200,000, wallclock elapsed: 8.16s ---
+[9709] INFO abides_core.engine.kernel --- Simulation time: 2021-02-05 12:54:54, messages processed: 300,000, wallclock elapsed: 12.37s ---
+[9709] INFO abides_core.engine.kernel --- Simulation time: 2021-02-05 13:12:10, messages processed: 400,000, wallclock elapsed: 16.83s ---
+[9709] INFO abides_core.engine.kernel --- Simulation time: 2021-02-05 13:45:49, messages processed: 500,000, wallclock elapsed: 21.25s ---
+[9709] INFO abides_core.engine.kernel --- Simulation time: 2021-02-05 14:03:03, messages processed: 600,000, wallclock elapsed: 25.40s ---
+[9709] INFO abides_core.engine.kernel --- Simulation time: 2021-02-05 14:36:21, messages processed: 700,000, wallclock elapsed: 29.89s ---
+[9709] INFO abides_core.engine.kernel --- Simulation time: 2021-02-05 14:47:17, messages processed: 800,000, wallclock elapsed: 33.84s ---
+[9709] INFO abides_core.engine.kernel --- Simulation time: 2021-02-05 15:00:26, messages processed: 900,000, wallclock elapsed: 37.31s ---
+[9709] INFO abides_core.engine.kernel --- Simulation time: 2021-02-05 15:09:02, messages processed: 1,000,000, wallclock elapsed: 40.69s ---
+[9709] INFO abides_core.engine.kernel --- Simulation time: 2021-02-05 15:18:33, messages processed: 1,100,000, wallclock elapsed: 43.81s ---
+[9709] INFO abides_core.engine.kernel --- Simulation time: 2021-02-05 15:26:31, messages processed: 1,200,000, wallclock elapsed: 47.07s ---
+[9709] INFO abides_core.engine.kernel --- Simulation time: 2021-02-05 15:36:20, messages processed: 1,300,000, wallclock elapsed: 50.18s ---
+[9709] INFO abides_core.engine.kernel --- Simulation time: 2021-02-05 15:41:19, messages processed: 1,400,000, wallclock elapsed: 53.51s ---
+[9709] INFO abides_core.engine.kernel --- Simulation time: 2021-02-05 15:47:31, messages processed: 1,500,000, wallclock elapsed: 56.79s ---
+[9709] INFO abides_markets.agents.market_makers.adaptive_market_maker_agent ADAPTIVE_POV_MARKET_MAKER_AGENT_1 flattened position: 132 shares of ABM at 2021-02-05 15:56:57
+[9709] INFO abides_core.engine.kernel --- Simulation time: 2021-02-05 15:57:06, messages processed: 1,600,000, wallclock elapsed: 59.92s ---
+[9709] INFO abides_core.engine.kernel Event Queue elapsed: 0:01:01.070180, messages: 1,635,560, messages per second: 26781.6
+[9709] INFO abides_core.engine.kernel Simulation ending!
+individual trending_day  seed=2    candidates/ddqn_starter_reward PnL=$   -280.98 maxDD=$   695.54 fills= 252 inv=    4 hold= 16.8% (61s)
+[9709] INFO abides_core.engine.kernel --- Simulation time: 2021-02-05 00:00:00, messages processed: 0, wallclock elapsed: 0.00s ---
+[9709] INFO abides_core.engine.kernel --- Simulation time: 2021-02-05 12:00:19, messages processed: 100,000, wallclock elapsed: 3.64s ---
+[9709] INFO abides_core.engine.kernel --- Simulation time: 2021-02-05 12:37:57, messages processed: 200,000, wallclock elapsed: 7.05s ---
+[9709] INFO abides_core.engine.kernel --- Simulation time: 2021-02-05 13:05:28, messages processed: 300,000, wallclock elapsed: 10.25s ---
+[9709] INFO abides_core.engine.kernel --- Simulation time: 2021-02-05 13:36:48, messages processed: 400,000, wallclock elapsed: 13.21s ---
+[9709] INFO abides_core.engine.kernel --- Simulation time: 2021-02-05 13:54:21, messages processed: 500,000, wallclock elapsed: 16.11s ---
+[9709] INFO abides_core.engine.kernel --- Simulation time: 2021-02-05 14:13:35, messages processed: 600,000, wallclock elapsed: 18.90s ---
+[9709] INFO abides_core.engine.kernel --- Simulation time: 2021-02-05 14:34:08, messages processed: 700,000, wallclock elapsed: 21.68s ---
+[9709] INFO abides_core.engine.kernel --- Simulation time: 2021-02-05 14:45:44, messages processed: 800,000, wallclock elapsed: 24.38s ---
+[9709] INFO abides_core.engine.kernel --- Simulation time: 2021-02-05 14:53:11, messages processed: 900,000, wallclock elapsed: 27.08s ---
+[9709] INFO abides_core.engine.kernel --- Simulation time: 2021-02-05 15:02:43, messages processed: 1,000,000, wallclock elapsed: 29.61s ---
+[9709] INFO abides_core.engine.kernel --- Simulation time: 2021-02-05 15:08:20, messages processed: 1,100,000, wallclock elapsed: 32.21s ---
+[9709] INFO abides_core.engine.kernel --- Simulation time: 2021-02-05 15:16:48, messages processed: 1,200,000, wallclock elapsed: 34.61s ---
+[9709] INFO abides_core.engine.kernel --- Simulation time: 2021-02-05 15:25:11, messages processed: 1,300,000, wallclock elapsed: 37.19s ---
+[9709] INFO abides_core.engine.kernel --- Simulation time: 2021-02-05 15:28:30, messages processed: 1,400,000, wallclock elapsed: 39.65s ---
+[9709] INFO abides_core.engine.kernel --- Simulation time: 2021-02-05 15:34:11, messages processed: 1,500,000, wallclock elapsed: 42.05s ---
+[9709] INFO abides_core.engine.kernel --- Simulation time: 2021-02-05 15:38:40, messages processed: 1,600,000, wallclock elapsed: 44.59s ---
+[9709] INFO abides_core.engine.kernel --- Simulation time: 2021-02-05 15:43:16, messages processed: 1,700,000, wallclock elapsed: 47.09s ---
+[9709] INFO abides_core.engine.kernel --- Simulation time: 2021-02-05 15:45:50, messages processed: 1,800,000, wallclock elapsed: 49.37s ---
+[9709] INFO abides_core.engine.kernel --- Simulation time: 2021-02-05 15:50:59, messages processed: 1,900,000, wallclock elapsed: 51.90s ---
+[9709] INFO abides_core.engine.kernel --- Simulation time: 2021-02-05 15:55:01, messages processed: 2,000,000, wallclock elapsed: 54.20s ---
+[9709] INFO abides_markets.agents.market_makers.adaptive_market_maker_agent ADAPTIVE_POV_MARKET_MAKER_AGENT_1 flattened position: 840 shares of ABM at 2021-02-05 15:56:57
+[9709] INFO abides_core.engine.kernel --- Simulation time: 2021-02-05 15:58:20, messages processed: 2,100,000, wallclock elapsed: 56.80s ---
+[9709] INFO abides_core.engine.kernel Event Queue elapsed: 0:00:58.673275, messages: 2,182,623, messages per second: 37199.6
+[9709] INFO abides_core.engine.kernel Simulation ending!
+individual trending_day  seed=2    baseline/model               PnL=$ -1,373.52 maxDD=$ 1,881.87 fills= 252 inv=   36 hold= 30.7% (59s)
+[9709] INFO abides_core.engine.kernel --- Simulation time: 2021-02-05 00:00:00, messages processed: 0, wallclock elapsed: 0.00s ---
+[9709] INFO abides_core.engine.kernel --- Simulation time: 2021-02-05 11:35:42, messages processed: 100,000, wallclock elapsed: 3.03s ---
+[9709] INFO abides_core.engine.kernel --- Simulation time: 2021-02-05 12:28:52, messages processed: 200,000, wallclock elapsed: 6.42s ---
+[9709] INFO abides_core.engine.kernel --- Simulation time: 2021-02-05 12:59:45, messages processed: 300,000, wallclock elapsed: 9.56s ---
+[9709] INFO abides_core.engine.kernel --- Simulation time: 2021-02-05 13:20:18, messages processed: 400,000, wallclock elapsed: 12.77s ---
+[9709] INFO abides_core.engine.kernel --- Simulation time: 2021-02-05 13:45:49, messages processed: 500,000, wallclock elapsed: 15.95s ---
+[9709] INFO abides_core.engine.kernel --- Simulation time: 2021-02-05 14:05:23, messages processed: 600,000, wallclock elapsed: 19.15s ---
+[9709] INFO abides_core.engine.kernel --- Simulation time: 2021-02-05 14:23:35, messages processed: 700,000, wallclock elapsed: 22.51s ---
+[9709] INFO abides_core.engine.kernel --- Simulation time: 2021-02-05 14:39:43, messages processed: 800,000, wallclock elapsed: 25.91s ---
+[9709] INFO abides_core.engine.kernel --- Simulation time: 2021-02-05 14:47:28, messages processed: 900,000, wallclock elapsed: 29.05s ---
+[9709] INFO abides_core.engine.kernel --- Simulation time: 2021-02-05 14:59:27, messages processed: 1,000,000, wallclock elapsed: 32.31s ---
+[9709] INFO abides_core.engine.kernel --- Simulation time: 2021-02-05 15:07:53, messages processed: 1,100,000, wallclock elapsed: 35.47s ---
+[9709] INFO abides_core.engine.kernel --- Simulation time: 2021-02-05 15:21:03, messages processed: 1,200,000, wallclock elapsed: 38.74s ---
+[9709] INFO abides_core.engine.kernel --- Simulation time: 2021-02-05 15:34:08, messages processed: 1,300,000, wallclock elapsed: 41.80s ---
+[9709] INFO abides_core.engine.kernel --- Simulation time: 2021-02-05 15:42:22, messages processed: 1,400,000, wallclock elapsed: 45.01s ---
+[9709] INFO abides_core.engine.kernel --- Simulation time: 2021-02-05 15:50:06, messages processed: 1,500,000, wallclock elapsed: 48.25s ---
+[9709] INFO abides_markets.agents.market_makers.adaptive_market_maker_agent ADAPTIVE_POV_MARKET_MAKER_AGENT_1 flattened position: 287 shares of ABM at 2021-02-05 15:56:57
+[9709] INFO abides_core.engine.kernel --- Simulation time: 2021-02-05 15:59:03, messages processed: 1,600,000, wallclock elapsed: 51.55s ---
+[9709] INFO abides_core.engine.kernel Event Queue elapsed: 0:00:51.617365, messages: 1,602,987, messages per second: 31055.2
+[9709] INFO abides_core.engine.kernel Simulation ending!
+individual trending_day  seed=2    hold                         PnL=$      0.00 maxDD=$     0.00 fills=   0 inv=    0 hold=100.0% (52s)
+[9709] INFO abides_core.engine.kernel --- Simulation time: 2021-02-05 00:00:00, messages processed: 0, wallclock elapsed: 0.00s ---
+[9709] INFO abides_core.engine.kernel --- Simulation time: 2021-02-05 11:35:42, messages processed: 100,000, wallclock elapsed: 3.06s ---
+[9709] INFO abides_core.engine.kernel --- Simulation time: 2021-02-05 12:28:52, messages processed: 200,000, wallclock elapsed: 6.39s ---
+[9709] INFO abides_core.engine.kernel --- Simulation time: 2021-02-05 12:59:56, messages processed: 300,000, wallclock elapsed: 9.63s ---
+[9709] INFO abides_core.engine.kernel --- Simulation time: 2021-02-05 13:25:25, messages processed: 400,000, wallclock elapsed: 12.93s ---
+[9709] INFO abides_core.engine.kernel --- Simulation time: 2021-02-05 13:59:41, messages processed: 500,000, wallclock elapsed: 16.24s ---
+[9709] INFO abides_core.engine.kernel --- Simulation time: 2021-02-05 14:19:40, messages processed: 600,000, wallclock elapsed: 19.69s ---
+[9709] INFO abides_core.engine.kernel --- Simulation time: 2021-02-05 14:42:17, messages processed: 700,000, wallclock elapsed: 23.01s ---
+[9709] INFO abides_core.engine.kernel --- Simulation time: 2021-02-05 14:54:54, messages processed: 800,000, wallclock elapsed: 26.36s ---
+[9709] INFO abides_core.engine.kernel --- Simulation time: 2021-02-05 15:14:34, messages processed: 900,000, wallclock elapsed: 29.47s ---
+[9709] INFO abides_core.engine.kernel --- Simulation time: 2021-02-05 15:26:31, messages processed: 1,000,000, wallclock elapsed: 32.60s ---
+[9709] INFO abides_core.engine.kernel --- Simulation time: 2021-02-05 15:41:19, messages processed: 1,100,000, wallclock elapsed: 35.59s ---
+[9709] INFO abides_core.engine.kernel --- Simulation time: 2021-02-05 15:47:38, messages processed: 1,200,000, wallclock elapsed: 38.63s ---
+[9709] INFO abides_markets.agents.market_makers.adaptive_market_maker_agent ADAPTIVE_POV_MARKET_MAKER_AGENT_1 flattened position: 287 shares of ABM at 2021-02-05 15:56:57
+[9709] INFO abides_core.engine.kernel --- Simulation time: 2021-02-05 15:59:17, messages processed: 1,300,000, wallclock elapsed: 41.74s ---
+[9709] INFO abides_core.engine.kernel Event Queue elapsed: 0:00:42.264850, messages: 1,320,831, messages per second: 31251.3
+[9709] INFO abides_core.engine.kernel Simulation ending!
+individual trending_day  seed=2    mean_reversion               PnL=$     13.56 maxDD=$   157.65 fills=  32 inv=    0 hold= 89.0% (42s)
+
+Mean PnL by policy:
+  candidates/v2_dueling_s7     mean=$     71.72  min=$     12.00  n=2
+  candidates/v2_dueling_s11    mean=$   -112.08  min=$   -223.81  n=2
+  candidates/v2_mlp_dqn_s7     mean=$   -414.46  min=$   -848.38  n=2
+  candidates/ddqn_risk_aware   mean=$    177.32  min=$   -104.56  n=2
+  candidates/ddqn_starter_reward mean=$    708.84  min=$   -280.98  n=2
+  baseline/model               mean=$   -786.83  min=$ -1,373.52  n=2
+  hold                         mean=$      0.00  min=$      0.00  n=2
+  mean_reversion               mean=$    117.08  min=$     13.56  n=2
+Saved: outputs/abides_eval/v2/trending_day.csv

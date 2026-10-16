@@ -1,0 +1,8 @@
+# Same as requirements.txt, but installs ABIDES-NG from GitHub because the
+# "abides-ng" package is NOT published on PyPI (pip returns "No matching distribution").
+# Uses GitHub zip archives, so it works on macOS and Windows without having git installed.
+numpy>=2.0,<3
+torch>=2.2
+matplotlib>=3.8
+abides-core @ https://github.com/GabrieleDiCorato/abides-ng/archive/refs/heads/main.zip#subdirectory=abides-core
+abides-ng @ https://github.com/GabrieleDiCorato/abides-ng/archive/refs/heads/main.zip#subdirectory=abides-markets

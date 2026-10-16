@@ -1,0 +1,38 @@
+FINAL TOURNAMENT DELIVERABLE - EXACT FORMAT
+==========================================
+
+Submit exactly ONE ZIP named with your team identifier:
+
+    TEAM_XX.zip
+
+The ZIP MUST contain exactly these two files at the ZIP ROOT:
+
+    TEAM_XX.zip
+    |-- model.pt
+    `-- metadata.json
+
+Do NOT put these files inside another folder.
+Do NOT add source code, notebooks, datasets, virtual environments, checkpoints,
+or extra files to the tournament ZIP.
+
+model.pt
+--------
+- Must be a PyTorch TorchScript model.
+- Input:  float32 tensor of shape [batch, 16].
+- Output: float32 tensor of shape [batch, 9].
+- The tournament uses argmax(output) as the action index.
+- Must run on CPU without network access.
+
+metadata.json
+-------------
+Required keys:
+team_id, team_name, members, model_format, contract_version,
+observation_size, action_size, training_algorithm, notes
+
+The provided export script creates this file correctly.
+
+Before submission, validate with:
+
+    START_HERE.bat -> option 5
+
+A ZIP that fails validation cannot enter the tournament until corrected.

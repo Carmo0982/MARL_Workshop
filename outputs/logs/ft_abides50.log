@@ -1,0 +1,26 @@
+Warm-started from outputs/candidates/v2_dueling_s7.pt
+Loaded 6581 ABIDES transitions from 1 file(s)
+[val] step=   6000 score=  1.676 ret=  2.43% dd= 1.17% worst= -0.69% trades=  220  <- new best
+ep=   20 step=   6201/60000 eps=0.138 sc=volatile           R=   -86.79 pnl=$       397 trades= 303 loss=11.6538 (16s)
+[val] step=  12000 score=  2.533 ret=  3.45% dd= 1.66% worst= -0.34% trades=  217  <- new best
+ep=   40 step=  12357/60000 eps=0.076 sc=volatile           R=  -359.74 pnl=$     1,319 trades= 236 loss=10.7918 (37s)
+[val] step=  18000 score=  1.675 ret=  2.83% dd= 1.81% worst= -1.00% trades=  234
+ep=   60 step=  18319/60000 eps=0.020 sc=abides_volatile    R=   -66.52 pnl=$         7 trades= 305 loss=10.7008 (58s)
+[val] step=  24000 score=  0.675 ret=  1.47% dd= 1.57% worst= -0.05% trades=  215
+ep=   80 step=  24516/60000 eps=0.020 sc=stable             R=  -303.55 pnl=$       312 trades= 190 loss=10.4861 (79s)
+[val] step=  30000 score=  1.323 ret=  2.02% dd= 1.17% worst= -0.46% trades=  219
+ep=  100 step=  30403/60000 eps=0.020 sc=abides_calm        R=   -47.67 pnl=$       -18 trades= 195 loss=11.4948 (99s)
+ep=  120 step=  35973/60000 eps=0.020 sc=abides_stress      R= -2175.45 pnl=$    19,361 trades= 175 loss=11.7391 (116s)
+[val] step=  36000 score=  1.815 ret=  2.39% dd= 1.06% worst= -0.18% trades=  235
+[val] step=  42000 score= -1.447 ret=  1.42% dd= 1.85% worst= -7.75% trades=  213
+ep=  140 step=  42483/60000 eps=0.020 sc=abides_volatile    R=  -111.57 pnl=$      -113 trades= 220 loss=11.2722 (140s)
+[val] step=  48000 score= -0.193 ret=  2.07% dd= 1.59% worst= -5.86% trades=  203
+ep=  160 step=  48349/60000 eps=0.020 sc=practice_stable    R=   -46.20 pnl=$        61 trades= 190 loss=11.9027 (159s)
+[val] step=  54000 score=  2.005 ret=  2.54% dd= 0.99% worst= -0.17% trades=  214
+ep=  180 step=  54210/60000 eps=0.020 sc=abides_trending    R=   -44.02 pnl=$       140 trades= 284 loss=12.2134 (179s)
+ep=  200 step=  59775/60000 eps=0.020 sc=abides_calm        R=   -59.85 pnl=$       196 trades= 106 loss=13.5876 (198s)
+[val] step=  60000 score=  2.629 ret=  3.32% dd= 1.37% worst= -0.01% trades=  213  <- new best
+
+Best validation score 2.629 at step 60000.
+Saved TorchScript policy to: outputs/candidates/ft_abides50.pt  (copied from outputs/runs/ft_abides50/model_best.pt)
+Run artefacts: outputs/runs/ft_abides50
