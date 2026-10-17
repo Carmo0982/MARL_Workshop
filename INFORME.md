@@ -1,7 +1,9 @@
 # MARL Stock Exchange — Informe / Evidencia experimental
 
 **Equipo:** TEAM_19 — Risk-Aware Bulls
+
 **Integrantes:** Santiago Carmona, Nicole Calderón
+
 **Modelo entregado:** `ft_abides25` (Double Dueling DQN con n-step, afinado con datos reales de ABIDES-NG)
 
 ---
