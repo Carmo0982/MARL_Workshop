@@ -1,0 +1,2 @@
+mode,scenario,seed,policy,pnl,max_drawdown,decisions,fills,blocked,final_inventory,max_abs_inventory,hold_pct,limit_pct,market_pct,others_median_pnl,others_best_pnl
+individual,stable_day,1,outputs/model,-0.6000000000058208,1.4000000000087311,3,3,0,30,30,0.0,0.0,100.0,0.0,15.66

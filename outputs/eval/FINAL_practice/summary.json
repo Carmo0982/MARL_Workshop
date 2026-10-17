@@ -1,0 +1,150 @@
+{
+  "outputs/model": {
+    "per_scenario": {
+      "practice:stable": {
+        "pnl_mean": 37.66500940429978,
+        "pnl_std": 67.93260279275574,
+        "ret_mean": 0.037665009404299774,
+        "dd_mean": 0.06920904468863155,
+        "trades_mean": 171.8,
+        "abs_final_inv": 10.0,
+        "win_rate": 0.4
+      },
+      "practice:trending": {
+        "pnl_mean": 2211.506046313766,
+        "pnl_std": 389.14962969363063,
+        "ret_mean": 2.211506046313766,
+        "dd_mean": 0.40159082396824675,
+        "trades_mean": 172.4,
+        "abs_final_inv": 124.0,
+        "win_rate": 1.0
+      },
+      "practice:volatile": {
+        "pnl_mean": 562.3507011617185,
+        "pnl_std": 366.1880371512684,
+        "ret_mean": 0.5623507011617185,
+        "dd_mean": 0.5220338734826335,
+        "trades_mean": 167.8,
+        "abs_final_inv": 54.0,
+        "win_rate": 1.0
+      }
+    },
+    "mean_return_pct": 0.9371739189599281,
+    "mean_drawdown_pct": 0.3309445807131706,
+    "worst_scenario_return_pct": 0.037665009404299774,
+    "mean_pnl": 937.1739189599282,
+    "mean_trades": 170.66666666666666,
+    "score": 0.7811178809544177
+  },
+  "candidates/ft_abides25": {
+    "per_scenario": {
+      "practice:stable": {
+        "pnl_mean": 137.82449868184048,
+        "pnl_std": 49.78301598968252,
+        "ret_mean": 0.1378244986818405,
+        "dd_mean": 0.039631460795074236,
+        "trades_mean": 164.2,
+        "abs_final_inv": 50.0,
+        "win_rate": 1.0
+      },
+      "practice:trending": {
+        "pnl_mean": 1661.5297816070292,
+        "pnl_std": 263.24745321607077,
+        "ret_mean": 1.6615297816070291,
+        "dd_mean": 0.13380119824676076,
+        "trades_mean": 161.8,
+        "abs_final_inv": 226.0,
+        "win_rate": 1.0
+      },
+      "practice:volatile": {
+        "pnl_mean": -343.4889966805407,
+        "pnl_std": 596.7866715072768,
+        "ret_mean": -0.3434889966805407,
+        "dd_mean": 0.918406217145131,
+        "trades_mean": 166.6,
+        "abs_final_inv": 130.0,
+        "win_rate": 0.2
+      }
+    },
+    "mean_return_pct": 0.48528842786944293,
+    "mean_drawdown_pct": 0.363946292062322,
+    "worst_scenario_return_pct": -0.3434889966805407,
+    "mean_pnl": 485.28842786944296,
+    "mean_trades": 164.2,
+    "score": 0.21744303266814674
+  },
+  "baseline/model": {
+    "per_scenario": {
+      "practice:stable": {
+        "pnl_mean": -140.7105184159591,
+        "pnl_std": 224.073328130356,
+        "ret_mean": -0.1407105184159591,
+        "dd_mean": 0.7478015447498183,
+        "trades_mean": 14.8,
+        "abs_final_inv": 500.0,
+        "win_rate": 0.2
+      },
+      "practice:trending": {
+        "pnl_mean": 5528.944200844586,
+        "pnl_std": 985.3146302526645,
+        "ret_mean": 5.5289442008445855,
+        "dd_mean": 0.47210772872103846,
+        "trades_mean": 22.8,
+        "abs_final_inv": 500.0,
+        "win_rate": 1.0
+      },
+      "practice:volatile": {
+        "pnl_mean": 55.26758751061861,
+        "pnl_std": 2437.7946250756254,
+        "ret_mean": 0.05526758751061851,
+        "dd_mean": 4.303623705946209,
+        "trades_mean": 148.4,
+        "abs_final_inv": 376.0,
+        "win_rate": 0.6
+      }
+    },
+    "mean_return_pct": 1.8145004233130815,
+    "mean_drawdown_pct": 1.8411776598056886,
+    "worst_scenario_return_pct": -0.1407105184159591,
+    "mean_pnl": 1814.5004233130817,
+    "mean_trades": 62.0,
+    "score": 0.8587339638062474
+  },
+  "hold": {
+    "per_scenario": {
+      "practice:stable": {
+        "pnl_mean": 0.0,
+        "pnl_std": 0.0,
+        "ret_mean": 0.0,
+        "dd_mean": 0.0,
+        "trades_mean": 0.0,
+        "abs_final_inv": 0.0,
+        "win_rate": 0.0
+      },
+      "practice:trending": {
+        "pnl_mean": 0.0,
+        "pnl_std": 0.0,
+        "ret_mean": 0.0,
+        "dd_mean": 0.0,
+        "trades_mean": 0.0,
+        "abs_final_inv": 0.0,
+        "win_rate": 0.0
+      },
+      "practice:volatile": {
+        "pnl_mean": 0.0,
+        "pnl_std": 0.0,
+        "ret_mean": 0.0,
+        "dd_mean": 0.0,
+        "trades_mean": 0.0,
+        "abs_final_inv": 0.0,
+        "win_rate": 0.0
+      }
+    },
+    "mean_return_pct": 0.0,
+    "mean_drawdown_pct": 0.0,
+    "worst_scenario_return_pct": 0.0,
+    "mean_pnl": 0.0,
+    "mean_trades": 0.0,
+    "score": 0.0
+  }
+}

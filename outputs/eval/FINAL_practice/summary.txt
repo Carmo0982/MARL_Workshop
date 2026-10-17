@@ -1,0 +1,13 @@
+Mean PnL ($) per scenario  [mean max-drawdown %, mean trades]
+scenario                                        outputs/model               candidates/ft_abides25                       baseline/model                                 hold
+practice:stable                                38 [ 0.1, 172]                      138 [ 0.0, 164]                     -141 [ 0.7,  15]                        0 [ 0.0,   0]
+practice:trending                            2212 [ 0.4, 172]                     1662 [ 0.1, 162]                     5529 [ 0.5,  23]                        0 [ 0.0,   0]
+practice:volatile                             562 [ 0.5, 168]                     -343 [ 0.9, 167]                       55 [ 4.3, 148]                        0 [ 0.0,   0]
+
+overall                                         outputs/model               candidates/ft_abides25                       baseline/model                                 hold
+mean PnL $                                            937.174                              485.288                             1814.500                                0.000
+mean return %                                           0.937                                0.485                                1.815                                0.000
+mean max DD %                                           0.331                                0.364                                1.841                                0.000
+worst scen. ret %                                       0.038                               -0.343                               -0.141                                0.000
+mean trades                                           170.667                              164.200                               62.000                                0.000
+SCORE                                                   0.781                                0.217                                0.859                                0.000

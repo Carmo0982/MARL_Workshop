@@ -1,8 +1,8 @@
-# MARL Stock Exchange — Borrador de informe / evidencia experimental
+# MARL Stock Exchange — Informe / Evidencia experimental
 
-> Borrador escrito para cubrir la **sección 17** (evidencia mínima) y la **sección 18** (preguntas de discusión) del enunciado.
-> Todos los números salen de archivos en `outputs/` y se pueden regenerar con los comandos de `NOTAS_EQUIPO.md`.
-> Las secciones marcadas con **[COMPAÑERO]** quedan para completar o verificar después de las pruebas finales.
+**Equipo:** TEAM_19 — Risk-Aware Bulls
+**Integrantes:** Santiago Carmona, Nicole Calderón
+**Modelo entregado:** `ft_abides25` (Double Dueling DQN con n-step, afinado con datos reales de ABIDES-NG)
 
 ---
 
@@ -25,6 +25,7 @@ Q(s,a) = V(s) + A(s,a) − mean_a A(s,a)
 | **LayerNorm** | Estabiliza las activaciones entre regímenes muy distintos (estable frente a crisis) y en inferencia no depende de estadísticas acumuladas, así que el modelo es seguro para TorchScript en CPU. |
 | **n-step = 3** | Propaga más rápido las ganancias y pérdidas de una posición, que se realizan varios pasos después de abrirla. |
 | **DQN y no PPO** | El espacio de acciones es discreto y pequeño (9 acciones), y DQN es off-policy: puede reutilizar transiciones de cualquier política, incluidas las recolectadas en ABIDES (sección 6). |
+| **Fine-tuning** | El modelo entregado parte de `v2_dueling_s7` y se afinó 60.000 pasos más con 6.581 transiciones reales recolectadas en ABIDES-NG, que ocupan el 25 % de cada batch del replay (lr 2,5e-4; ε de 0,2 a 0,02). La arquitectura y el contrato (`[batch,16] → [batch,9]`, TorchScript, CPU) no cambian. |
 
 El modelo exportado cumple el contrato: entrada float32 `[batch,16]`, salida float32 `[batch,9]`, TorchScript, CPU, valores finitos. `train.export_torchscript` lo comprueba tras cada guardado.
 
@@ -81,6 +82,7 @@ El término de "drawdown" se implementó como incremento del drawdown respecto a
 | Peso de los escenarios ABIDES en el muestreo | 2× |
 | Evaluación de validación | cada 10.000 pasos, suite completa (12 escenarios × 3 semillas) |
 | Precio en evaluación | fijo en $100 (en entrenamiento, aleatorio entre $50 y $1.500) |
+| Fine-tuning (modelo entregado) | 60.000 pasos, lr 2,5e-4, ε 0,2→0,02, 25 % de datos de ABIDES por batch |
 
 La configuración exacta de cada corrida queda en `outputs/runs/<run>/config.json`.
 
@@ -112,19 +114,43 @@ Lectura (con la cautela anterior):
 4. Los datos reales de ABIDES (25 %) dan el mejor resultado en mercados normales de ABIDES, pero no podemos separar
    su efecto del de los 60k pasos extra.
 
-### 5.2 Comparación final contra baselines
+### 5.2 Comparación final con semillas de test
 
-Ver las tablas completas en `NOTAS_EQUIPO.md`, secciones 6.2–6.4. Resumen del modelo actual (`v2_dueling_s11`,
-provisional) frente al DQN starter:
+Estas semillas no se usaron para entrenar ni para elegir checkpoints. Simulación propia: 12 regímenes con semillas de test (5001–5005). ABIDES-NG en modo individual: 6 escenarios × semillas 3, 4 y 5. Comparamos el modelo entregado (`ft_abides25`), nuestro otro candidato fuerte (`v2_dueling_s11`) y el DQN starter. HOLD obtiene 0 en todo por definición.
 
-| | v2_dueling_s11 | Starter |
-|---|---|---|
-| Simulación, 12 regímenes: retorno medio / maxDD / peor escenario | 0,67 % / 0,37 % / −0,34 % | −0,75 % / 2,28 % / −4,38 % |
-| ABIDES, media sin stress / maxDD sin stress / inventario máx. medio | +$22 / $819 / 367 | −$936 / $2.286 / 496 |
-| Práctica oficial, 3 regímenes: retorno medio / drawdown | 0,47 % / 0,45 % | 3,14 % / 1,66 % |
+#### Simulador propio (12 regímenes)
 
-**[COMPAÑERO]:** agregar aquí los números con las semillas de **test** (simulación 5001–5005, ABIDES 3–5) del modelo
-finalmente entregado.
+| Política | Retorno medio | Drawdown máx. medio | Peor escenario | Operaciones | Score |
+|---|---|---|---|---|---|
+| v2_dueling_s11 | 0,73 % | 0,39 % | −0,09 % | 204 | **0,51** |
+| **ft_abides25 (entregado)** | **1,03 %** | 0,59 % | −1,49 % | 231 | 0,36 |
+| momentum (regla) | 0,36 % | 0,98 % | −4,45 % | 194 | −1,24 |
+| mean_reversion (regla) | −0,20 % | 1,14 % | −3,46 % | 127 | −1,64 |
+| baseline (DQN starter) | −0,67 % | 2,47 % | −7,25 % | 128 | −3,72 |
+
+#### Mercado de práctica oficial (3 regímenes)
+
+| Política | Retorno medio | Drawdown máx. medio | Peor escenario | Operaciones | Score |
+|---|---|---|---|---|---|
+| baseline (DQN starter) | 1,81 % | 1,84 % | −0,14 % | 62 | 0,86 |
+| v2_dueling_s11 | 0,94 % | 0,33 % | +0,04 % | 171 | 0,78 |
+| **ft_abides25 (entregado)** | 0,49 % | 0,36 % | −0,34 % | 164 | 0,22 |
+
+#### ABIDES-NG (6 escenarios × 3 semillas)
+
+| Política | Media sin stress | maxDD sin stress | Peor escenario (PnL) | Inventario máx. medio |
+|---|---|---|---|---|
+| **ft_abides25 (entregado)** | **+$550** | **$885** | −$120 | **280** |
+| v2_dueling_s11 | −$1.271 | $2.643 | −$6.176 | 331 |
+| baseline (DQN starter) | −$8.179 | $14.031 | −$40.655 | 445 |
+
+#### Lectura
+
+1. **Frente al DQN starter**, `ft_abides25` mejora en casi todo: pierde menos y tiene mucho menos drawdown, tanto en simulación como en ABIDES. La excepción es el mercado de práctica, donde el starter rinde más porque está ajustado a esos 3 regímenes, cuya tendencia siempre es alcista.
+2. **Entre nuestros dos candidatos no hay un ganador único.** En el simulador propio y en la práctica oficial, `v2_dueling_s11` tiene mejor score y menos cola de pérdida. En ABIDES-NG, `ft_abides25` es claramente mejor: gana en promedio, tiene un tercio del drawdown y menos inventario, mientras que `v2_dueling_s11` pierde en promedio por un mal día volátil (−$6.176).
+3. **Las cifras de `stress_test` de ABIDES no son evidencia de habilidad** (por ejemplo, los +$47.715 de `ft_abides25` o los +$123.606 del starter). Con un máximo de 500 acciones, esos PnL superan el capital inicial por saltos de precio cuando un lado del libro se vacía. Por eso las columnas "sin stress" los excluyen.
+4. **El peor escenario simulado de `ft_abides25` (−1,49 %) es el régimen `stress`**, donde el fine-tuning con datos de ABIDES aumenta la exposición, como ya habíamos visto en validación.
+5. **Evidencia moderada, no definitiva.** En ABIDES solo hay 3 semillas por escenario, y las diferencias entre candidatos son del orden de la variación entre semillas.
 
 ### 5.3 Curvas de entrenamiento
 
@@ -136,6 +162,7 @@ finalmente entregado.
 2. Entre corridas, los candidatos se comparan además **dentro de ABIDES-NG** (modo individual, 5 escenarios × 2 semillas). Así se evita elegir un modelo que solo funciona en nuestro simulador. En ABIDES se ignora el PnL y el drawdown de `stress_test` (ver limitaciones) y se mira el inventario máximo.
    *Nota:* la versión inicial del evaluador compartía semilla y precio entre escenarios, y con ella se eligieron los checkpoints de cada corrida. Lo corregimos después de la revisión, pero no reentrenamos.
 3. El modelo elegido se evalúa **una sola vez** en las semillas de test (5001–5005, y ABIDES 3–5) para reportar números sin sesgo de selección.
+4. Teníamos dos finalistas, `v2_dueling_s11` y `ft_abides25`. Nuestra **decisión final y modelo entregado** `ft_abides25` porque ABIDES-NG es el entorno más cercano al torneo y no al simulador con el que entrenamos. Ahí `ft_abides25` obtuvo mejor resultado medio, tres veces menos drawdown y menos inventario. Aceptamos a cambio un peor score en nuestro simulador y en el mercado de práctica, y un peor escenario más profundo en crisis.
 
 ## 7. Limitaciones y fallas observadas
 
@@ -145,7 +172,7 @@ finalmente entregado.
 - **Adaptador de ABIDES propio.** Nuestro `abides_eval.py` hace supuestos (decidir cada 60 s, profundidad = 5 niveles, cancelar las órdenes limitadas tras 5 decisiones) que el adaptador del profesor puede no compartir.
 - **Pocas semillas en ABIDES**, porque cada día simulado tarda unos 40 s.
 - **`stress_test` de ABIDES no sirve para comparar por PnL ni drawdown:** con como mucho 500 acciones aparecen PnL y drawdowns mayores que el capital inicial, por saltos del precio medio cuando un lado del libro se vacía, y varían en órdenes de magnitud entre semillas. Ahí solo comparamos exposición (inventario máximo).
-- **Modelo actual con inventarios altos en ABIDES:** `v2_dueling_s11` llega a 367 acciones de inventario máximo medio (y, según la revisión externa, a 480–499 en semillas extra).
+- **El modelo entregado asume más riesgo en crisis:** En simulación, `ft_abides25` tiene su peor resultado en el régimen `stress` (−1,49 %, drawdown 2,0 %), y su drawdown medio (0,59 %) es mayor que el de `v2_dueling_s11` (0,39 %). En el mercado de práctica oficial rinde menos que el starter y que `v2_dueling_s11`. Su inventario máximo medio en ABIDES es 280 acciones, por debajo del límite de 500 pero todavía alto.
 - **Simplificaciones del simulador propio** (detectadas en la revisión, no corregidas para no invalidar los modelos entrenados): una orden limitada nueva puede ejecutarse o perder un paso de vida en el mismo paso en que se coloca; al colocarla no se comprueba el límite de ±500 (si al ejecutarse lo rompería, se descarta); el impacto propio no alimenta el término de momentum.
 - **Simplificaciones del adaptador de ABIDES:** las órdenes de mercado parcialmente ejecutadas no se pueden cancelar y siguen contando como pendientes; cuando un lado del libro está vacío el agente no decide en ese paso.
 - **El fine-tuning con datos de ABIDES aumenta la exposición en crisis.** Las recompensas de ABIDES tienen colas enormes; las recortamos a ±50, pero el agente igual aprende posiciones más grandes.
@@ -176,11 +203,7 @@ Porque el entorno deja de ser estacionario: los otros agentes consumen liquidez,
 El escenario `crowded` de nuestro simulador modela de forma simple a otros seguidores de tendencia.
 
 **7. ¿Qué compromiso hicimos entre ganancia, drawdown y actividad?**
-Preferimos menos retorno medio a cambio de menos drawdown y de no perder fuerte en ningún régimen: el score pondera el
-peor escenario. Por ejemplo, `v2_mlp_dqn` tiene más retorno en simulación (1,07 %) que `v2_dueling_s11` (0,67 %), pero
-casi el triple de drawdown (1,03 % frente a 0,37 %) y un peor escenario de −2,22 %. La actividad sigue siendo alta
-(unas 190–220 operaciones por episodio) y es la principal debilidad, porque el spread se come parte de la ventaja en
-mercados tranquilos. **[COMPAÑERO]:** completar con el modelo finalmente entregado y sus números de test.
+Preferimos un modelo que no pierda mucho en ningún escenario antes que uno con el mejor retorno promedio. Eso se ve en dos niveles. Primero, el score de validación pondera el drawdown y el peor escenario, y por eso el DQN starter, con mejor retorno en práctica (1,81 %), queda muy por detrás en robustez (drawdown 1,84 %, y −7,25 % en su peor régimen simulado). Segundo, entre nuestros dos finalistas entregamos `ft_abides25`. Frente a `v2_dueling_s11` tiene más retorno en simulación (1,03 % contra 0,73 %) y mucho mejor resultado en ABIDES (+$550 contra −$1.271 sin stress, con drawdown de $885 contra $2.643). A cambio acepta más drawdown en simulación (0,59 % contra 0,39 %) y una pérdida mayor en crisis (−1,49 % contra −0,09 %). Elegimos ese compromiso porque ABIDES-NG se parece más al entorno del torneo. La actividad sigue siendo alta (unas 231 operaciones por episodio en simulación y 285 fills en ABIDES) y es la principal debilidad, porque el spread y el impacto se comen parte de la ventaja en mercados tranquilos.
 
 **8. Si la política falla en una crisis, ¿cómo saber si el problema es la representación del estado, el reward, la distribución de entrenamiento o el algoritmo?**
 - *Distribución de entrenamiento:* comparar el rendimiento en crisis con y sin escenarios de crisis en el entrenamiento (`--scenarios ...`). Si mejora al incluirlos, el problema era la cobertura.

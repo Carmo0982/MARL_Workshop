@@ -75,7 +75,7 @@ def _make_agent_class():
         def get_wake_frequency(self):
             # Offset of the first wake-up after market open (TradingAgent schedules it
             # once market hours are known). Random so several agents do not act in lockstep.
-            return int(self.random_state.randint(1, max(2, self.wake_ns)))
+            return int(self.random_state.random_sample() * max(2, self.wake_ns - 1)) + 1
 
         def wakeup(self, current_time):
             can_trade = super().wakeup(current_time)
